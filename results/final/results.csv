@@ -1,0 +1,1001 @@
+name,cls,n,variant,lb,ub,gap_pct,closed,confirmed,lb_methods,lb_families,ub_method,ub_source,lost_cheaper_evidence,solution,csv_bks,csv_bound,csv_closed
+MB_C1_1,1,20,weighted,689,689,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_1_weighted.json,,,
+MB_C1_2,1,20,weighted,446,446,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_2_weighted.json,,,
+MB_C1_3,1,20,weighted,736,736,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_3_weighted.json,,,
+MB_C1_4,1,20,weighted,440,440,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_4_weighted.json,,,
+MB_C1_5,1,20,weighted,528,528,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_5_weighted.json,,,
+MB_C1_6,1,20,weighted,754,754,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_6_weighted.json,,,
+MB_C1_7,1,20,weighted,566,566,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_7_weighted.json,,,
+MB_C1_8,1,20,weighted,501,501,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_8_weighted.json,,,
+MB_C1_9,1,20,weighted,710,710,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_9_weighted.json,,,
+MB_C1_10,1,20,weighted,699,699,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C1_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C1_10_weighted.json,,,
+MB_C1_11,1,40,weighted,819,819,0.0,1,1,probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct rep slots_v0,sweep_rep,results/solutions/sprint/MB_C1_11_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_11_weighted.json,,,
+MB_C1_12,1,40,weighted,1061,1061,0.0,1,1,probe_cpsat_slots_v0 sweep_rep,rep slots_v0,packingsolver,results/solutions/sprint/MB_C1_12_weighted_packingsolver_pass1.json,0,results/final/solutions/MB_C1_12_weighted.json,,,
+MB_C1_13,1,40,weighted,1321,1322,0.076,0,0,cg_v2_bendex verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C1_13_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_13_weighted.json,,,
+MB_C1_14,1,40,weighted,1245,1245,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C1_14_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_14_weighted.json,,,
+MB_C1_15,1,40,weighted,1341,1341,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C1_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_15_weighted.json,,,
+MB_C1_16,1,40,weighted,979,979,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C1_16_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_16_weighted.json,,,
+MB_C1_17,1,40,weighted,1010,1010,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C1_17_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_17_weighted.json,,,
+MB_C1_18,1,40,weighted,1672,1672,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C1_18_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_18_weighted.json,,,
+MB_C1_19,1,40,weighted,979,979,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C1_19_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_19_weighted.json,,,
+MB_C1_20,1,40,weighted,957,957,0.0,1,1,confirm_lattice sweep_rep,lattice rep,sweep_rep,results/solutions/sprint/MB_C1_20_weighted_sweep_rep.json,0,results/final/solutions/MB_C1_20_weighted.json,,,
+MB_C1_21,1,60,weighted,1898,1919,1.094,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_21_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C1_21_weighted.json,,,
+MB_C1_22,1,60,weighted,1741,1741,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,cg_v2_bendex,results/solutions/sprint/MB_C1_22_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C1_22_weighted.json,,,
+MB_C1_23,1,60,weighted,1760,1780,1.124,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_23_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C1_23_weighted.json,,,
+MB_C1_24,1,60,weighted,1914,1914,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,primal_heur,results/solutions/sprint/MB_C1_24_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C1_24_weighted.json,,,
+MB_C1_25,1,60,weighted,1566,1566,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,cg_v2_bendex,results/solutions/sprint/MB_C1_25_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C1_25_weighted.json,,,
+MB_C1_26,1,60,weighted,1585,1599,0.876,0,0,cg_v2_bendex verify_cg_safe,cg,packingsolver,results/solutions/sprint/MB_C1_26_weighted_packingsolver_pass1.json,0,results/final/solutions/MB_C1_26_weighted.json,,,
+MB_C1_27,1,60,weighted,1388,1406,1.28,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C1_27_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C1_27_weighted.json,,,
+MB_C1_28,1,60,weighted,2002,2002,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,primal_heur,results/solutions/sprint/MB_C1_28_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C1_28_weighted.json,,,
+MB_C1_29,1,60,weighted,1596,1612,0.993,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_29_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C1_29_weighted.json,,,
+MB_C1_30,1,60,weighted,2201,2225,1.079,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_30_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C1_30_weighted.json,,,
+MB_C1_31,1,80,weighted,,2066,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_31_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C1_31_weighted.json,,,
+MB_C1_32,1,80,weighted,,2304,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_32_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C1_32_weighted.json,,,
+MB_C1_33,1,80,weighted,,2453,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_33_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_33_weighted.json,,,
+MB_C1_34,1,80,weighted,,2348,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_34_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C1_34_weighted.json,,,
+MB_C1_35,1,80,weighted,,2310,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_35_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_35_weighted.json,,,
+MB_C1_36,1,80,weighted,,2561,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C1_36_weighted.json,,,
+MB_C1_37,1,80,weighted,,2798,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_37_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_37_weighted.json,,,
+MB_C1_38,1,80,weighted,,2658,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_38_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_38_weighted.json,,,
+MB_C1_39,1,80,weighted,,2791,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_39_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C1_39_weighted.json,,,
+MB_C1_40,1,80,weighted,,2422,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_40_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_40_weighted.json,,,
+MB_C1_41,1,100,weighted,,2526,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_41_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C1_41_weighted.json,,,
+MB_C1_42,1,100,weighted,,2860,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_42_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C1_42_weighted.json,,,
+MB_C1_43,1,100,weighted,,2643,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_43_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C1_43_weighted.json,,,
+MB_C1_44,1,100,weighted,,2801,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_44_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C1_44_weighted.json,,,
+MB_C1_45,1,100,weighted,,3020,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_45_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C1_45_weighted.json,,,
+MB_C1_46,1,100,weighted,,3499,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_46_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_46_weighted.json,,,
+MB_C1_47,1,100,weighted,,2613,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_47_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_47_weighted.json,,,
+MB_C1_48,1,100,weighted,,3114,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_48_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C1_48_weighted.json,,,
+MB_C1_49,1,100,weighted,,2856,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_49_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C1_49_weighted.json,,,
+MB_C1_50,1,100,weighted,,3594,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_50_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C1_50_weighted.json,,,
+MB_C2_1,2,20,weighted,618,618,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_1_weighted.json,,,
+MB_C2_2,2,20,weighted,368,368,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_2_weighted.json,,,
+MB_C2_3,2,20,weighted,560,560,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_3_weighted.json,,,
+MB_C2_4,2,20,weighted,411,411,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_4_weighted.json,,,
+MB_C2_5,2,20,weighted,368,368,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_5_weighted.json,,,
+MB_C2_6,2,20,weighted,571,571,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_6_weighted.json,,,
+MB_C2_7,2,20,weighted,510,510,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_7_weighted.json,,,
+MB_C2_8,2,20,weighted,408,408,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_8_weighted.json,,,
+MB_C2_9,2,20,weighted,800,800,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_9_weighted.json,,,
+MB_C2_10,2,20,weighted,660,660,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C2_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_10_weighted.json,,,
+MB_C2_11,2,40,weighted,792,792,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C2_11_weighted_sweep_rep.json,0,results/final/solutions/MB_C2_11_weighted.json,,,
+MB_C2_12,2,40,weighted,753,753,0.0,1,1,cg_v2_root probe_cpsat_direct sweep_rep verify_cg_safe,cg direct rep,sweep_rep,results/solutions/sprint/MB_C2_12_weighted_sweep_rep.json,0,results/final/solutions/MB_C2_12_weighted.json,,,
+MB_C2_13,2,40,weighted,992,992,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_13_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_13_weighted.json,,,
+MB_C2_14,2,40,weighted,1116,1116,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_14_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_14_weighted.json,,,
+MB_C2_15,2,40,weighted,1122,1122,0.0,1,1,cg_v2_bendex cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C2_15_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C2_15_weighted.json,,,
+MB_C2_16,2,40,weighted,736,736,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_16_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_16_weighted.json,,,
+MB_C2_17,2,40,weighted,648,648,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_17_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_17_weighted.json,,,
+MB_C2_18,2,40,weighted,1200,1200,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_18_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_18_weighted.json,,,
+MB_C2_19,2,40,weighted,690,690,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_19_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_19_weighted.json,,,
+MB_C2_20,2,40,weighted,867,867,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_20_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_20_weighted.json,,,
+MB_C2_21,2,60,weighted,863,916,5.786,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C2_21_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C2_21_weighted.json,,,
+MB_C2_22,2,60,weighted,1365,1365,0.0,1,1,cg_v2_root confirm_lattice verify_cg_safe,cg lattice,cg_v2_root,results/solutions/sprint/MB_C2_22_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_22_weighted.json,,,
+MB_C2_23,2,60,weighted,1242,1242,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_23_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_23_weighted.json,,,
+MB_C2_24,2,60,weighted,1486,1486,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C2_24_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C2_24_weighted.json,,,
+MB_C2_25,2,60,weighted,1285,1285,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C2_25_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C2_25_weighted.json,,,
+MB_C2_26,2,60,weighted,1240,1240,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_26_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_26_weighted.json,,,
+MB_C2_27,2,60,weighted,1264,1264,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_27_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_27_weighted.json,,,
+MB_C2_28,2,60,weighted,1440,1440,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_28_weighted_cg_v2_root.json,0,results/final/solutions/MB_C2_28_weighted.json,,,
+MB_C2_29,2,60,weighted,1022,1022,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C2_29_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C2_29_weighted.json,,,
+MB_C2_30,2,60,weighted,1821,1856,1.886,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C2_30_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C2_30_weighted.json,,,
+MB_C2_31,2,80,weighted,,1893,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_31_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_31_weighted.json,,,
+MB_C2_32,2,80,weighted,,1584,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_32_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_32_weighted.json,,,
+MB_C2_33,2,80,weighted,,1960,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_33_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_33_weighted.json,,,
+MB_C2_34,2,80,weighted,,2028,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_34_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_34_weighted.json,,,
+MB_C2_35,2,80,weighted,,1764,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_35_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_35_weighted.json,,,
+MB_C2_36,2,80,weighted,,1485,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_36_weighted.json,,,
+MB_C2_37,2,80,weighted,,2020,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_37_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_37_weighted.json,,,
+MB_C2_38,2,80,weighted,,1864,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_38_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_38_weighted.json,,,
+MB_C2_39,2,80,weighted,,1296,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_39_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_39_weighted.json,,,
+MB_C2_40,2,80,weighted,,1458,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_40_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_40_weighted.json,,,
+MB_C2_41,2,100,weighted,,2016,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_41_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_41_weighted.json,,,
+MB_C2_42,2,100,weighted,,2160,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_42_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_42_weighted.json,,,
+MB_C2_43,2,100,weighted,,2286,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_43_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_43_weighted.json,,,
+MB_C2_44,2,100,weighted,,2408,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_44_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_44_weighted.json,,,
+MB_C2_45,2,100,weighted,,2409,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_45_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_45_weighted.json,,,
+MB_C2_46,2,100,weighted,,2666,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_46_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_46_weighted.json,,,
+MB_C2_47,2,100,weighted,,2246,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_47_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_47_weighted.json,,,
+MB_C2_48,2,100,weighted,,2194,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_48_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_48_weighted.json,,,
+MB_C2_49,2,100,weighted,,1782,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_49_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_49_weighted.json,,,
+MB_C2_50,2,100,weighted,,2856,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_50_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C2_50_weighted.json,,,
+MB_C3_1,3,20,weighted,7283,7283,0.0,1,1,probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct rep slots_v0,sweep_rep,results/solutions/sprint/MB_C3_1_weighted_sweep_rep.json,0,results/final/solutions/MB_C3_1_weighted.json,,,
+MB_C3_2,3,20,weighted,4591,4591,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_2_weighted.json,,,
+MB_C3_3,3,20,weighted,7800,7800,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_3_weighted.json,,,
+MB_C3_4,3,20,weighted,4747,4747,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_4_weighted.json,,,
+MB_C3_5,3,20,weighted,6038,6038,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_5_weighted.json,,,
+MB_C3_6,3,20,weighted,7477,7477,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_6_weighted.json,,,
+MB_C3_7,3,20,weighted,5677,5677,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_7_weighted.json,,,
+MB_C3_8,3,20,weighted,5456,5456,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_8_weighted.json,,,
+MB_C3_9,3,20,weighted,6680,6680,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_9_weighted.json,,,
+MB_C3_10,3,20,weighted,8300,8300,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C3_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C3_10_weighted.json,,,
+MB_C3_11,3,40,weighted,8833,8833,0.0,1,1,confirm_rep lattice_opp lattice_opp_fullonly verify_lattice_indep,cg lattice lattice_indep rep,sweep_rep,results/solutions/sprint/MB_C3_11_weighted_sweep_rep.json,0,results/final/solutions/MB_C3_11_weighted.json,,,
+MB_C3_12,3,40,weighted,10648,10648,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C3_12_weighted_sweep_rep.json,0,results/final/solutions/MB_C3_12_weighted.json,,,
+MB_C3_13,3,40,weighted,15122,15122,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,cg_v2_bendex,results/solutions/sprint/MB_C3_13_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_13_weighted.json,,,
+MB_C3_14,3,40,weighted,13993,13993,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,cg_v2_bendex,results/solutions/sprint/MB_C3_14_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_14_weighted.json,,,
+MB_C3_15,3,40,weighted,16243,16243,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C3_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C3_15_weighted.json,,,
+MB_C3_16,3,40,weighted,10788,10788,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C3_16_weighted_sweep_rep.json,0,results/final/solutions/MB_C3_16_weighted.json,,,
+MB_C3_17,3,40,weighted,11140,11140,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C3_17_weighted_sweep_rep.json,0,results/final/solutions/MB_C3_17_weighted.json,,,
+MB_C3_18,3,40,weighted,16711,16711,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C3_18_weighted_sweep_rep.json,0,results/final/solutions/MB_C3_18_weighted.json,,,
+MB_C3_19,3,40,weighted,10068,10068,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,cg_v2_bendex,results/solutions/sprint/MB_C3_19_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_19_weighted.json,,,
+MB_C3_20,3,40,weighted,10093,10286,1.876,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C3_20_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_20_weighted.json,,,
+MB_C3_21,3,60,weighted,24442,24442,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C3_21_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_21_weighted.json,,,
+MB_C3_22,3,60,weighted,18040,18040,0.0,1,0,cg_v2_bendex verify_cg_safe,cg,cg_v2_bendex,results/solutions/sprint/MB_C3_22_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_22_weighted.json,,,
+MB_C3_23,3,60,weighted,19355,19868,2.582,0,0,cg_v2_bendex lattice_opp verify_cg_safe,cg lattice,primal_heur,results/solutions/sprint/MB_C3_23_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_23_weighted.json,,,
+MB_C3_24,3,60,weighted,20354,20354,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C3_24_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_24_weighted.json,,,
+MB_C3_25,3,60,weighted,17122,17998,4.867,0,0,cg_v2_bendex lattice_opp verify_cg_safe,cg lattice,primal_lns,results/solutions/sprint/MB_C3_25_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_25_weighted.json,,,
+MB_C3_26,3,60,weighted,17644,18288,3.521,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C3_26_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C3_26_weighted.json,,,
+MB_C3_27,3,60,weighted,15812,15812,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C3_27_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_27_weighted.json,,,
+MB_C3_28,3,60,weighted,20425,20425,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C3_28_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C3_28_weighted.json,,,
+MB_C3_29,3,60,weighted,17768,18853,5.755,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C3_29_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_29_weighted.json,,,
+MB_C3_30,3,60,weighted,23052,23754,2.955,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C3_30_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_30_weighted.json,,,
+MB_C3_31,3,80,weighted,,22614,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_31_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_31_weighted.json,,,
+MB_C3_32,3,80,weighted,,25857,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_32_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C3_32_weighted.json,,,
+MB_C3_33,3,80,weighted,,26089,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_33_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_33_weighted.json,,,
+MB_C3_34,3,80,weighted,,25798,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_34_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_34_weighted.json,,,
+MB_C3_35,3,80,weighted,,25175,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_35_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C3_35_weighted.json,,,
+MB_C3_36,3,80,weighted,,27302,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_36_weighted.json,,,
+MB_C3_37,3,80,weighted,,29115,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_37_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_37_weighted.json,,,
+MB_C3_38,3,80,weighted,,32806,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_38_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_38_weighted.json,,,
+MB_C3_39,3,80,weighted,,31350,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_39_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C3_39_weighted.json,,,
+MB_C3_40,3,80,weighted,,27520,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_40_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_40_weighted.json,,,
+MB_C3_41,3,100,weighted,,28300,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_41_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C3_41_weighted.json,,,
+MB_C3_42,3,100,weighted,,33372,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_42_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_42_weighted.json,,,
+MB_C3_43,3,100,weighted,,28612,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_43_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C3_43_weighted.json,,,
+MB_C3_44,3,100,weighted,,29411,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_44_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_44_weighted.json,,,
+MB_C3_45,3,100,weighted,,31027,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_45_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_45_weighted.json,,,
+MB_C3_46,3,100,weighted,,39930,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_46_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C3_46_weighted.json,,,
+MB_C3_47,3,100,weighted,,29376,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_47_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_47_weighted.json,,,
+MB_C3_48,3,100,weighted,,33047,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_48_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_48_weighted.json,,,
+MB_C3_49,3,100,weighted,,32358,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_49_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C3_49_weighted.json,,,
+MB_C3_50,3,100,weighted,,39234,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_50_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C3_50_weighted.json,,,
+MB_C4_1,4,20,weighted,5960,5960,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_1_weighted.json,,,
+MB_C4_2,4,20,weighted,3796,3796,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_2_weighted.json,,,
+MB_C4_3,4,20,weighted,6910,6910,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_3_weighted.json,,,
+MB_C4_4,4,20,weighted,4336,4336,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_4_weighted.json,,,
+MB_C4_5,4,20,weighted,5644,5644,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_5_weighted.json,,,
+MB_C4_6,4,20,weighted,6887,6887,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_6_weighted.json,,,
+MB_C4_7,4,20,weighted,5056,5056,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_7_weighted.json,,,
+MB_C4_8,4,20,weighted,4372,4372,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_8_weighted.json,,,
+MB_C4_9,4,20,weighted,6424,6424,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_9_weighted.json,,,
+MB_C4_10,4,20,weighted,5792,5792,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_10_weighted.json,,,
+MB_C4_11,4,40,weighted,6934,6934,0.0,1,1,cg_v2_root probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C4_11_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_11_weighted.json,,,
+MB_C4_12,4,40,weighted,10585,10585,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_12_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_12_weighted.json,,,
+MB_C4_13,4,40,weighted,10384,10384,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_13_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_13_weighted.json,,,
+MB_C4_14,4,40,weighted,14118,14118,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_14_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_14_weighted.json,,,
+MB_C4_15,4,40,weighted,11050,11050,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C4_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C4_15_weighted.json,,,
+MB_C4_16,4,40,weighted,12189,12189,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_16_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_16_weighted.json,,,
+MB_C4_17,4,40,weighted,8104,8104,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_17_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_17_weighted.json,,,
+MB_C4_18,4,40,weighted,9098,10479,13.179,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,sweep_rep,results/solutions/sprint/MB_C4_18_weighted_sweep_rep.json,0,results/final/solutions/MB_C4_18_weighted.json,,,
+MB_C4_19,4,40,weighted,9150,9150,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_19_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_19_weighted.json,,,
+MB_C4_20,4,40,weighted,9044,9680,6.57,0,0,cg_v2_root opp_benders verify_cg_safe,cg opp,sweep_rep,results/solutions/sprint/MB_C4_20_weighted_sweep_rep.json,0,results/final/solutions/MB_C4_20_weighted.json,,,
+MB_C4_21,4,60,weighted,14113,14938,5.523,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C4_21_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_21_weighted.json,,,
+MB_C4_22,4,60,weighted,10060,10843,7.221,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C4_22_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_22_weighted.json,,,
+MB_C4_23,4,60,weighted,17604,19995,11.958,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C4_23_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C4_23_weighted.json,,,
+MB_C4_24,4,60,weighted,15837,16565,4.395,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C4_24_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C4_24_weighted.json,,,
+MB_C4_25,4,60,weighted,14308,14308,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C4_25_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C4_25_weighted.json,,,
+MB_C4_26,4,60,weighted,11130,11130,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C4_26_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C4_26_weighted.json,,,
+MB_C4_27,4,60,weighted,9384,9384,0.0,1,1,cg_v2_root confirm_lattice verify_cg_safe,cg lattice,cg_v2_root,results/solutions/sprint/MB_C4_27_weighted_cg_v2_root.json,0,results/final/solutions/MB_C4_27_weighted.json,,,
+MB_C4_28,4,60,weighted,13272,14956,11.26,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C4_28_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C4_28_weighted.json,,,
+MB_C4_29,4,60,weighted,12895,14747,12.558,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C4_29_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C4_29_weighted.json,,,
+MB_C4_30,4,60,weighted,11990,12906,7.097,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C4_30_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C4_30_weighted.json,,,
+MB_C4_31,4,80,weighted,,20622,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_31_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_31_weighted.json,,,
+MB_C4_32,4,80,weighted,,21948,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_32_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C4_32_weighted.json,,,
+MB_C4_33,4,80,weighted,,21656,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_33_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_33_weighted.json,,,
+MB_C4_34,4,80,weighted,,13690,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_34_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_34_weighted.json,,,
+MB_C4_35,4,80,weighted,,19736,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_35_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_35_weighted.json,,,
+MB_C4_36,4,80,weighted,,23590,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_36_weighted.json,,,
+MB_C4_37,4,80,weighted,,21654,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_37_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_37_weighted.json,,,
+MB_C4_38,4,80,weighted,,15554,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_38_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_38_weighted.json,,,
+MB_C4_39,4,80,weighted,,21752,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_39_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_39_weighted.json,,,
+MB_C4_40,4,80,weighted,,23755,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_40_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_40_weighted.json,,,
+MB_C4_41,4,100,weighted,,28688,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_41_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_41_weighted.json,,,
+MB_C4_42,4,100,weighted,,25904,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_42_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_42_weighted.json,,,
+MB_C4_43,4,100,weighted,,19310,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_43_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_43_weighted.json,,,
+MB_C4_44,4,100,weighted,,30315,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_44_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_44_weighted.json,,,
+MB_C4_45,4,100,weighted,,28892,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_45_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_45_weighted.json,,,
+MB_C4_46,4,100,weighted,,31999,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_46_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C4_46_weighted.json,,,
+MB_C4_47,4,100,weighted,,21312,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_47_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_47_weighted.json,,,
+MB_C4_48,4,100,weighted,,32108,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_48_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C4_48_weighted.json,,,
+MB_C4_49,4,100,weighted,,25261,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_49_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_49_weighted.json,,,
+MB_C4_50,4,100,weighted,,28140,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_50_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C4_50_weighted.json,,,
+MB_C5_1,5,20,weighted,64945,64945,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_1_weighted.json,,,
+MB_C5_2,5,20,weighted,35293,35293,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_2_weighted.json,,,
+MB_C5_3,5,20,weighted,63670,63670,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_3_weighted.json,,,
+MB_C5_4,5,20,weighted,41686,41686,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,opp_benders,results/solutions/sprint/MB_C5_4_weighted_opp_benders.json,0,results/final/solutions/MB_C5_4_weighted.json,,,
+MB_C5_5,5,20,weighted,48138,48138,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_5_weighted.json,,,
+MB_C5_6,5,20,weighted,70020,70020,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_6_weighted.json,,,
+MB_C5_7,5,20,weighted,48637,48637,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_7_weighted.json,,,
+MB_C5_8,5,20,weighted,46307,46307,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_8_weighted.json,,,
+MB_C5_9,5,20,weighted,63250,63250,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_9_weighted.json,,,
+MB_C5_10,5,20,weighted,65006,65006,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C5_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C5_10_weighted.json,,,
+MB_C5_11,5,40,weighted,69385,69385,0.0,1,1,probe_cpsat_slots_v0 sweep_rep,rep slots_v0,sweep_rep,results/solutions/sprint/MB_C5_11_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_11_weighted.json,,,
+MB_C5_12,5,40,weighted,96201,96201,0.0,1,1,probe_cpsat_slots_v0 sweep_rep verify_sweep_direct_lbm1,direct rep slots_v0,sweep_rep,results/solutions/sprint/MB_C5_12_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_12_weighted.json,,,
+MB_C5_13,5,40,weighted,128068,128068,0.0,1,1,confirm_lattice sweep_rep,lattice rep,sweep_rep,results/solutions/sprint/MB_C5_13_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_13_weighted.json,,,
+MB_C5_14,5,40,weighted,113259,113259,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C5_14_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_14_weighted.json,,,
+MB_C5_15,5,40,weighted,126697,126697,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C5_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_15_weighted.json,,,
+MB_C5_16,5,40,weighted,91128,91128,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C5_16_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_16_weighted.json,,,
+MB_C5_17,5,40,weighted,93737,93737,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C5_17_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_17_weighted.json,,,
+MB_C5_18,5,40,weighted,152184,152184,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C5_18_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_18_weighted.json,,,
+MB_C5_19,5,40,weighted,87166,87492,0.373,0,0,cg_v2_bendex lattice_opp verify_cg_safe,cg lattice,lattice_opp,results/solutions/sprint/MB_C5_19_weighted_lattice_opp.json,0,results/final/solutions/MB_C5_19_weighted.json,,,
+MB_C5_20,5,40,weighted,92594,92594,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C5_20_weighted_sweep_rep.json,0,results/final/solutions/MB_C5_20_weighted.json,,,
+MB_C5_21,5,60,weighted,178956,185925,3.748,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C5_21_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C5_21_weighted.json,,,
+MB_C5_22,5,60,weighted,146213,151602,3.555,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C5_22_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C5_22_weighted.json,,,
+MB_C5_23,5,60,weighted,165528,168448,1.733,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C5_23_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C5_23_weighted.json,,,
+MB_C5_24,5,60,weighted,176826,176826,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C5_24_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C5_24_weighted.json,,,
+MB_C5_25,5,60,weighted,141187,144666,2.405,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C5_25_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C5_25_weighted.json,,,
+MB_C5_26,5,60,weighted,140400,142365,1.38,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C5_26_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_26_weighted.json,,,
+MB_C5_27,5,60,weighted,135731,135731,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C5_27_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C5_27_weighted.json,,,
+MB_C5_28,5,60,weighted,169173,173700,2.606,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C5_28_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C5_28_weighted.json,,,
+MB_C5_29,5,60,weighted,145449,145449,0.0,1,0,cg_v2_bendex verify_cg_safe,cg,cg_v2_bendex,results/solutions/sprint/MB_C5_29_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C5_29_weighted.json,,,
+MB_C5_30,5,60,weighted,200170,200170,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C5_30_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C5_30_weighted.json,,,
+MB_C5_31,5,80,weighted,,208014,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_31_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_31_weighted.json,,,
+MB_C5_32,5,80,weighted,,210760,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_32_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C5_32_weighted.json,,,
+MB_C5_33,5,80,weighted,,217224,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_33_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C5_33_weighted.json,,,
+MB_C5_34,5,80,weighted,,211605,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_34_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C5_34_weighted.json,,,
+MB_C5_35,5,80,weighted,,212723,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_35_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C5_35_weighted.json,,,
+MB_C5_36,5,80,weighted,,229631,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_36_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_36_weighted.json,,,
+MB_C5_37,5,80,weighted,,243614,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_37_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C5_37_weighted.json,,,
+MB_C5_38,5,80,weighted,,244595,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_38_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C5_38_weighted.json,,,
+MB_C5_39,5,80,weighted,,259925,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_39_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_39_weighted.json,,,
+MB_C5_40,5,80,weighted,,219444,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_40_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C5_40_weighted.json,,,
+MB_C5_41,5,100,weighted,,230014,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_41_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_41_weighted.json,,,
+MB_C5_42,5,100,weighted,,279799,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_42_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C5_42_weighted.json,,,
+MB_C5_43,5,100,weighted,,230567,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_43_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C5_43_weighted.json,,,
+MB_C5_44,5,100,weighted,,251720,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_44_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_44_weighted.json,,,
+MB_C5_45,5,100,weighted,,267258,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_45_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C5_45_weighted.json,,,
+MB_C5_46,5,100,weighted,,316333,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_46_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_46_weighted.json,,,
+MB_C5_47,5,100,weighted,,246035,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_47_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C5_47_weighted.json,,,
+MB_C5_48,5,100,weighted,,284742,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_48_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C5_48_weighted.json,,,
+MB_C5_49,5,100,weighted,,262318,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_49_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C5_49_weighted.json,,,
+MB_C5_50,5,100,weighted,,314279,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_50_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C5_50_weighted.json,,,
+MB_C6_1,6,20,weighted,39512,39512,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_1_weighted.json,,,
+MB_C6_2,6,20,weighted,31648,31648,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_2_weighted.json,,,
+MB_C6_3,6,20,weighted,40002,40002,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_3_weighted.json,,,
+MB_C6_4,6,20,weighted,41947,41947,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_4_weighted.json,,,
+MB_C6_5,6,20,weighted,25244,25244,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_5_weighted.json,,,
+MB_C6_6,6,20,weighted,63694,63694,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_6_weighted.json,,,
+MB_C6_7,6,20,weighted,42062,42062,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_7_weighted.json,,,
+MB_C6_8,6,20,weighted,33083,33083,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_8_weighted.json,,,
+MB_C6_9,6,20,weighted,31923,31923,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_9_weighted.json,,,
+MB_C6_10,6,20,weighted,61779,61779,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_10_weighted.json,,,
+MB_C6_11,6,40,weighted,83480,83480,0.0,1,1,cg_v2_root probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C6_11_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_11_weighted.json,,,
+MB_C6_12,6,40,weighted,59960,59960,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C6_12_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_12_weighted.json,,,
+MB_C6_13,6,40,weighted,87808,87808,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C6_13_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_13_weighted.json,,,
+MB_C6_14,6,40,weighted,76396,76396,0.0,1,1,cg_v2_bendex cg_v2_root opp_benders verify_cg_safe,cg opp,cg_v2_bendex,results/solutions/sprint/MB_C6_14_weighted_cg_v2_bendex.json,0,results/final/solutions/MB_C6_14_weighted.json,,,
+MB_C6_15,6,40,weighted,89410,96935,7.763,0,0,cg_v2_root opp_benders verify_cg_safe,cg opp,sweep_rep,results/solutions/sprint/MB_C6_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C6_15_weighted.json,,,
+MB_C6_16,6,40,weighted,61116,61116,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C6_16_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_16_weighted.json,,,
+MB_C6_17,6,40,weighted,74786,74820,0.045,0,0,cg_v2_bendex cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,cg_v2_root,results/solutions/sprint/MB_C6_17_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_17_weighted.json,,,
+MB_C6_18,6,40,weighted,92352,92352,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C6_18_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_18_weighted.json,,,
+MB_C6_19,6,40,weighted,67910,74260,8.551,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,primal_heur,results/solutions/sprint/MB_C6_19_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C6_19_weighted.json,,,
+MB_C6_20,6,40,weighted,66798,71233,6.226,0,0,cg_v2_root opp_benders verify_cg_safe,cg opp,sweep_rep,results/solutions/sprint/MB_C6_20_weighted_sweep_rep.json,0,results/final/solutions/MB_C6_20_weighted.json,,,
+MB_C6_21,6,60,weighted,84553,96632,12.5,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C6_21_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_21_weighted.json,,,
+MB_C6_22,6,60,weighted,95076,95076,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C6_22_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C6_22_weighted.json,,,
+MB_C6_23,6,60,weighted,84553,84553,0.0,1,1,cg_v2_root confirm_lattice verify_cg_safe,cg lattice,cg_v2_root,results/solutions/sprint/MB_C6_23_weighted_cg_v2_root.json,0,results/final/solutions/MB_C6_23_weighted.json,,,
+MB_C6_24,6,60,weighted,117260,130700,10.283,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C6_24_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C6_24_weighted.json,,,
+MB_C6_25,6,60,weighted,121668,121668,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C6_25_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C6_25_weighted.json,,,
+MB_C6_26,6,60,weighted,,119652,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_26_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_26_weighted.json,,,
+MB_C6_27,6,60,weighted,,94752,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_27_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_27_weighted.json,,,
+MB_C6_28,6,60,weighted,,140492,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_28_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_28_weighted.json,,,
+MB_C6_29,6,60,weighted,,116118,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_29_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_29_weighted.json,,,
+MB_C6_30,6,60,weighted,,142403,,0,0,,,primal_lns,results/solutions/sprint/MB_C6_30_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C6_30_weighted.json,,,
+MB_C6_31,6,80,weighted,,136782,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_31_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_31_weighted.json,,,
+MB_C6_32,6,80,weighted,,183235,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_32_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C6_32_weighted.json,,,
+MB_C6_33,6,80,weighted,,130184,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_33_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_33_weighted.json,,,
+MB_C6_34,6,80,weighted,,187040,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_34_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C6_34_weighted.json,,,
+MB_C6_35,6,80,weighted,,150936,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_35_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_35_weighted.json,,,
+MB_C6_36,6,80,weighted,,194290,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_36_weighted.json,,,
+MB_C6_37,6,80,weighted,,119130,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_37_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_37_weighted.json,,,
+MB_C6_38,6,80,weighted,,198327,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_38_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_38_weighted.json,,,
+MB_C6_39,6,80,weighted,,150370,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_39_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_39_weighted.json,,,
+MB_C6_40,6,80,weighted,,138064,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_40_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_40_weighted.json,,,
+MB_C6_41,6,100,weighted,,139698,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_41_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_41_weighted.json,,,
+MB_C6_42,6,100,weighted,,208236,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_42_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_42_weighted.json,,,
+MB_C6_43,6,100,weighted,,200700,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_43_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_43_weighted.json,,,
+MB_C6_44,6,100,weighted,,197029,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_44_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_44_weighted.json,,,
+MB_C6_45,6,100,weighted,,219072,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_45_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_45_weighted.json,,,
+MB_C6_46,6,100,weighted,,283116,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_46_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_46_weighted.json,,,
+MB_C6_47,6,100,weighted,,132634,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_47_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_47_weighted.json,,,
+MB_C6_48,6,100,weighted,,179640,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_48_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_48_weighted.json,,,
+MB_C6_49,6,100,weighted,,180720,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_49_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_49_weighted.json,,,
+MB_C6_50,6,100,weighted,,173184,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_50_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C6_50_weighted.json,,,
+MB_C7_1,7,20,weighted,47983,47983,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_1_weighted.json,,,
+MB_C7_2,7,20,weighted,44464,44464,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_2_weighted.json,,,
+MB_C7_3,7,20,weighted,42495,42495,0.0,1,1,probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_3_weighted.json,,,
+MB_C7_4,7,20,weighted,57364,57364,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_4_weighted.json,,,
+MB_C7_5,7,20,weighted,53796,53796,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_5_weighted.json,,,
+MB_C7_6,7,20,weighted,48185,48185,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_6_weighted.json,,,
+MB_C7_7,7,20,weighted,36265,36265,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_7_weighted.json,,,
+MB_C7_8,7,20,weighted,50527,50527,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_8_weighted.json,,,
+MB_C7_9,7,20,weighted,53917,53917,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_9_weighted.json,,,
+MB_C7_10,7,20,weighted,37774,37774,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C7_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C7_10_weighted.json,,,
+MB_C7_11,7,40,weighted,86590,86590,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,sweep_rep,results/solutions/sprint/MB_C7_11_weighted_sweep_rep.json,0,results/final/solutions/MB_C7_11_weighted.json,,,
+MB_C7_12,7,40,weighted,108078,108078,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep,lattice_opp,results/solutions/sprint/MB_C7_12_weighted_lattice_opp.json,0,results/final/solutions/MB_C7_12_weighted.json,,,
+MB_C7_13,7,40,weighted,83695,85212,1.78,0,0,lattice_opp,cg lattice,primal_lns,results/solutions/sprint/MB_C7_13_weighted_primal_lns_test.json,0,results/final/solutions/MB_C7_13_weighted.json,,,
+MB_C7_14,7,40,weighted,122742,128164,4.231,0,0,lattice_opp,cg lattice,packingsolver,results/solutions/sprint/MB_C7_14_weighted_packingsolver_pass1.json,0,results/final/solutions/MB_C7_14_weighted.json,,,
+MB_C7_15,7,40,weighted,78131,78669,0.684,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C7_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C7_15_weighted.json,,,
+MB_C7_16,7,40,weighted,101154,102354,1.172,0,0,cg_v2_bendex lattice_opp verify_cg_safe,cg lattice,sweep_rep,results/solutions/sprint/MB_C7_16_weighted_sweep_rep.json,0,results/final/solutions/MB_C7_16_weighted.json,,,
+MB_C7_17,7,40,weighted,94431,95135,0.74,0,0,lattice_opp,cg lattice,sweep_rep,results/solutions/sprint/MB_C7_17_weighted_sweep_rep.json,0,results/final/solutions/MB_C7_17_weighted.json,,,
+MB_C7_18,7,40,weighted,100715,100715,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C7_18_weighted_sweep_rep.json,0,results/final/solutions/MB_C7_18_weighted.json,,,
+MB_C7_19,7,40,weighted,66979,66979,0.0,1,1,cg_v2_bendex lattice_opp lattice_opp_fullonly verify_cg_safe verify_lattice_indep,cg lattice lattice_indep,lattice_opp,results/solutions/sprint/MB_C7_19_weighted_lattice_opp.json,0,results/final/solutions/MB_C7_19_weighted.json,,,
+MB_C7_20,7,40,weighted,113813,113813,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,cg lattice lattice_indep,sweep_rep,results/solutions/sprint/MB_C7_20_weighted_sweep_rep.json,0,results/final/solutions/MB_C7_20_weighted.json,,,
+MB_C7_21,7,60,weighted,151692,152155,0.304,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C7_21_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C7_21_weighted.json,,,
+MB_C7_22,7,60,weighted,120780,124736,3.171,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C7_22_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C7_22_weighted.json,,,
+MB_C7_23,7,60,weighted,141382,143722,1.628,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C7_23_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C7_23_weighted.json,,,
+MB_C7_24,7,60,weighted,,128102,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_24_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C7_24_weighted.json,,,
+MB_C7_25,7,60,weighted,,128638,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_25_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C7_25_weighted.json,,,
+MB_C7_26,7,60,weighted,,120364,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_26_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_26_weighted.json,,,
+MB_C7_27,7,60,weighted,,124160,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_27_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C7_27_weighted.json,,,
+MB_C7_28,7,60,weighted,,154112,,0,0,,,packingsolver,results/solutions/sprint/MB_C7_28_weighted_packingsolver_pass1.json,0,results/final/solutions/MB_C7_28_weighted.json,,,
+MB_C7_29,7,60,weighted,,134922,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_29_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C7_29_weighted.json,,,
+MB_C7_30,7,60,weighted,,175598,,0,0,,,packingsolver,results/solutions/sprint/MB_C7_30_weighted_packingsolver_pass1.json,0,results/final/solutions/MB_C7_30_weighted.json,,,
+MB_C7_31,7,80,weighted,,182580,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_31_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_31_weighted.json,,,
+MB_C7_32,7,80,weighted,,220918,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_32_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_32_weighted.json,,,
+MB_C7_33,7,80,weighted,,188382,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_33_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_33_weighted.json,,,
+MB_C7_34,7,80,weighted,,201819,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_34_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C7_34_weighted.json,,,
+MB_C7_35,7,80,weighted,,203800,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_35_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C7_35_weighted.json,,,
+MB_C7_36,7,80,weighted,,211601,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_36_weighted.json,,,
+MB_C7_37,7,80,weighted,,217398,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_37_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_37_weighted.json,,,
+MB_C7_38,7,80,weighted,,199880,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_38_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_38_weighted.json,,,
+MB_C7_39,7,80,weighted,,213970,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_39_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C7_39_weighted.json,,,
+MB_C7_40,7,80,weighted,,211473,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_40_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_40_weighted.json,,,
+MB_C7_41,7,100,weighted,,248994,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_41_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_41_weighted.json,,,
+MB_C7_42,7,100,weighted,,240466,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_42_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_42_weighted.json,,,
+MB_C7_43,7,100,weighted,,207652,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_43_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_43_weighted.json,,,
+MB_C7_44,7,100,weighted,,229567,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_44_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_44_weighted.json,,,
+MB_C7_45,7,100,weighted,,243182,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_45_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C7_45_weighted.json,,,
+MB_C7_46,7,100,weighted,,264861,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_46_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C7_46_weighted.json,,,
+MB_C7_47,7,100,weighted,,248362,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_47_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C7_47_weighted.json,,,
+MB_C7_48,7,100,weighted,,252934,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_48_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C7_48_weighted.json,,,
+MB_C7_49,7,100,weighted,,238659,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_49_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_49_weighted.json,,,
+MB_C7_50,7,100,weighted,,283372,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_50_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C7_50_weighted.json,,,
+MB_C8_1,8,20,weighted,50552,50552,0.0,1,1,opp_benders opp_stack1d probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_opp_stack1d_highs,direct opp opp_indep rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_1_weighted.json,,,
+MB_C8_2,8,20,weighted,53541,53541,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_2_weighted.json,,,
+MB_C8_3,8,20,weighted,48386,48386,0.0,1,1,probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_3_weighted.json,,,
+MB_C8_4,8,20,weighted,58725,58725,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_4_weighted.json,,,
+MB_C8_5,8,20,weighted,47735,47735,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_5_weighted.json,,,
+MB_C8_6,8,20,weighted,53268,53268,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_6_weighted.json,,,
+MB_C8_7,8,20,weighted,40363,40363,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_7_weighted.json,,,
+MB_C8_8,8,20,weighted,45364,45364,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_8_weighted.json,,,
+MB_C8_9,8,20,weighted,58484,58484,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_9_weighted.json,,,
+MB_C8_10,8,20,weighted,34622,34622,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C8_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C8_10_weighted.json,,,
+MB_C8_11,8,40,weighted,99006,99006,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C8_11_weighted_sweep_rep.json,0,results/final/solutions/MB_C8_11_weighted.json,,,
+MB_C8_12,8,40,weighted,113327,113327,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep,lattice_opp,results/solutions/sprint/MB_C8_12_weighted_lattice_opp.json,0,results/final/solutions/MB_C8_12_weighted.json,,,
+MB_C8_13,8,40,weighted,89060,89060,0.0,1,0,lattice_opp lattice_opp_fullonly verify_lattice_indep,cg lattice lattice_indep,lattice_opp,results/solutions/sprint/MB_C8_13_weighted_lattice_opp.json,0,results/final/solutions/MB_C8_13_weighted.json,,,
+MB_C8_14,8,40,weighted,109530,109530,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep,lattice_opp,results/solutions/sprint/MB_C8_14_weighted_lattice_opp.json,0,results/final/solutions/MB_C8_14_weighted.json,,,
+MB_C8_15,8,40,weighted,70756,70756,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,sweep_rep,results/solutions/sprint/MB_C8_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C8_15_weighted.json,,,
+MB_C8_16,8,40,weighted,101917,103147,1.192,0,0,cg_v2_bendex verify_cg_safe,cg,packingsolver,results/solutions/sprint/MB_C8_16_weighted_packingsolver_pass1.json,0,results/final/solutions/MB_C8_16_weighted.json,,,
+MB_C8_17,8,40,weighted,97244,97244,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,sweep_rep,results/solutions/sprint/MB_C8_17_weighted_sweep_rep.json,0,results/final/solutions/MB_C8_17_weighted.json,,,
+MB_C8_18,8,40,weighted,95494,95494,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,sweep_rep,results/solutions/sprint/MB_C8_18_weighted_sweep_rep.json,0,results/final/solutions/MB_C8_18_weighted.json,,,
+MB_C8_19,8,40,weighted,79505,79505,0.0,1,1,cg_v2_bendex confirm_lattice_indep confirm_rep lattice_opp lattice_opp_fullonly verify_cg_safe,cg lattice lattice_indep rep,lattice_opp,results/solutions/sprint/MB_C8_19_weighted_lattice_opp.json,0,results/final/solutions/MB_C8_19_weighted.json,,,
+MB_C8_20,8,40,weighted,111484,111588,0.093,0,0,cg_v2_bendex verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C8_20_weighted_sweep_rep.json,0,results/final/solutions/MB_C8_20_weighted.json,,,
+MB_C8_21,8,60,weighted,,156245,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_21_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C8_21_weighted.json,,,
+MB_C8_22,8,60,weighted,,144895,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_22_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C8_22_weighted.json,,,
+MB_C8_23,8,60,weighted,,143717,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_23_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C8_23_weighted.json,,,
+MB_C8_24,8,60,weighted,,130185,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_24_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C8_24_weighted.json,,,
+MB_C8_25,8,60,weighted,,123332,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_25_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C8_25_weighted.json,,,
+MB_C8_26,8,60,weighted,,136639,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_26_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C8_26_weighted.json,,,
+MB_C8_27,8,60,weighted,,128049,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_27_weighted_primal_heur_h2x.json,0,results/final/solutions/MB_C8_27_weighted.json,,,
+MB_C8_28,8,60,weighted,,155408,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_28_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C8_28_weighted.json,,,
+MB_C8_29,8,60,weighted,,133778,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_29_weighted_primal_heur_h2.json,0,results/final/solutions/MB_C8_29_weighted.json,,,
+MB_C8_30,8,60,weighted,,170005,,0,0,,,packingsolver,results/solutions/sprint/MB_C8_30_weighted_packingsolver_pass1.json,0,results/final/solutions/MB_C8_30_weighted.json,,,
+MB_C8_31,8,80,weighted,,205034,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_31_weighted_primal_lns_l2x.json,0,results/final/solutions/MB_C8_31_weighted.json,,,
+MB_C8_32,8,80,weighted,,213999,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_32_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_32_weighted.json,,,
+MB_C8_33,8,80,weighted,,185633,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_33_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C8_33_weighted.json,,,
+MB_C8_34,8,80,weighted,,170878,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_34_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C8_34_weighted.json,,,
+MB_C8_35,8,80,weighted,,230752,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_35_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_35_weighted.json,,,
+MB_C8_36,8,80,weighted,,195869,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_36_weighted.json,,,
+MB_C8_37,8,80,weighted,,200648,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_37_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_37_weighted.json,,,
+MB_C8_38,8,80,weighted,,199517,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_38_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_38_weighted.json,,,
+MB_C8_39,8,80,weighted,,198111,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_39_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C8_39_weighted.json,,,
+MB_C8_40,8,80,weighted,,228043,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_40_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C8_40_weighted.json,,,
+MB_C8_41,8,100,weighted,,249780,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_41_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C8_41_weighted.json,,,
+MB_C8_42,8,100,weighted,,234828,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_42_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C8_42_weighted.json,,,
+MB_C8_43,8,100,weighted,,199957,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_43_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_43_weighted.json,,,
+MB_C8_44,8,100,weighted,,268233,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_44_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C8_44_weighted.json,,,
+MB_C8_45,8,100,weighted,,252392,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_45_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C8_45_weighted.json,,,
+MB_C8_46,8,100,weighted,,226486,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_46_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_46_weighted.json,,,
+MB_C8_47,8,100,weighted,,228774,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_47_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_47_weighted.json,,,
+MB_C8_48,8,100,weighted,,248435,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_48_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_48_weighted.json,,,
+MB_C8_49,8,100,weighted,,238012,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_49_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_49_weighted.json,,,
+MB_C8_50,8,100,weighted,,288709,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_50_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C8_50_weighted.json,,,
+MB_C9_1,9,20,weighted,134514,134514,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_1_weighted.json,,,
+MB_C9_2,9,20,weighted,111136,111136,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_2_weighted.json,,,
+MB_C9_3,9,20,weighted,114236,114236,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_3_weighted.json,,,
+MB_C9_4,9,20,weighted,99954,99954,0.0,1,1,cg_v2_root probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_4_weighted.json,,,
+MB_C9_5,9,20,weighted,127976,127976,0.0,1,1,cg_v2_root probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_5_weighted.json,,,
+MB_C9_6,9,20,weighted,121381,121381,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_6_weighted.json,,,
+MB_C9_7,9,20,weighted,76484,76484,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_7_weighted.json,,,
+MB_C9_8,9,20,weighted,103352,103352,0.0,1,1,cg_v2_root probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_8_weighted.json,,,
+MB_C9_9,9,20,weighted,142593,142593,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_9_weighted.json,,,
+MB_C9_10,9,20,weighted,95968,95968,0.0,1,1,probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C9_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_10_weighted.json,,,
+MB_C9_11,9,40,weighted,220271,220271,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_11_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_11_weighted.json,,,
+MB_C9_12,9,40,weighted,229470,229470,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_12_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_12_weighted.json,,,
+MB_C9_13,9,40,weighted,221093,221093,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_13_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_13_weighted.json,,,
+MB_C9_14,9,40,weighted,227350,227350,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_14_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_14_weighted.json,,,
+MB_C9_15,9,40,weighted,221588,221588,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_15_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_15_weighted.json,,,
+MB_C9_16,9,40,weighted,227738,227738,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_16_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_16_weighted.json,,,
+MB_C9_17,9,40,weighted,191886,191886,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_17_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_17_weighted.json,,,
+MB_C9_18,9,40,weighted,229591,229591,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,cg_v2_root,results/solutions/sprint/MB_C9_18_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_18_weighted.json,,,
+MB_C9_19,9,40,weighted,180606,180606,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_19_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_19_weighted.json,,,
+MB_C9_20,9,40,weighted,298632,298632,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_20_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_20_weighted.json,,,
+MB_C9_21,9,60,weighted,409581,409581,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_21_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_21_weighted.json,,,
+MB_C9_22,9,60,weighted,363160,363160,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_22_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_22_weighted.json,,,
+MB_C9_23,9,60,weighted,364260,364260,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_23_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_23_weighted.json,,,
+MB_C9_24,9,60,weighted,331849,331849,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_24_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_24_weighted.json,,,
+MB_C9_25,9,60,weighted,338313,338313,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_25_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_25_weighted.json,,,
+MB_C9_26,9,60,weighted,298002,298002,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_26_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_26_weighted.json,,,
+MB_C9_27,9,60,weighted,323115,323115,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_27_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_27_weighted.json,,,
+MB_C9_28,9,60,weighted,371656,371656,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_28_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_28_weighted.json,,,
+MB_C9_29,9,60,weighted,338445,338445,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_29_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_29_weighted.json,,,
+MB_C9_30,9,60,weighted,377852,377852,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_30_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_30_weighted.json,,,
+MB_C9_31,9,80,weighted,494342,494342,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_31_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_31_weighted.json,,,
+MB_C9_32,9,80,weighted,457632,457632,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_32_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_32_weighted.json,,,
+MB_C9_33,9,80,weighted,437693,437693,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_33_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_33_weighted.json,,,
+MB_C9_34,9,80,weighted,460021,460021,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_34_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_34_weighted.json,,,
+MB_C9_35,9,80,weighted,499944,500104,0.032,0,0,cg_v2_root verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C9_35_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C9_35_weighted.json,,,
+MB_C9_36,9,80,weighted,504962,504962,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_36_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_36_weighted.json,,,
+MB_C9_37,9,80,weighted,457304,457304,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_37_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_37_weighted.json,,,
+MB_C9_38,9,80,weighted,459728,459728,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_38_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_38_weighted.json,,,
+MB_C9_39,9,80,weighted,384666,384950,0.074,0,0,cg_v2_root verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C9_39_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C9_39_weighted.json,,,
+MB_C9_40,9,80,weighted,464725,464725,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_40_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_40_weighted.json,,,
+MB_C9_41,9,100,weighted,620764,620764,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_41_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_41_weighted.json,,,
+MB_C9_42,9,100,weighted,510678,510678,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_42_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_42_weighted.json,,,
+MB_C9_43,9,100,weighted,509505,509505,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_43_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_43_weighted.json,,,
+MB_C9_44,9,100,weighted,593286,593286,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_44_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_44_weighted.json,,,
+MB_C9_45,9,100,weighted,546750,546750,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_45_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_45_weighted.json,,,
+MB_C9_46,9,100,weighted,558376,558800,0.076,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C9_46_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_46_weighted.json,,,
+MB_C9_47,9,100,weighted,514916,514916,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_47_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_47_weighted.json,,,
+MB_C9_48,9,100,weighted,564802,564802,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_48_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_48_weighted.json,,,
+MB_C9_49,9,100,weighted,512672,512840,0.033,0,0,cg_v2_root verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C9_49_weighted_primal_lns_l2x.json,0,results/final/solutions/MB_C9_49_weighted.json,,,
+MB_C9_50,9,100,weighted,570968,570968,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_50_weighted_cg_v2_root.json,0,results/final/solutions/MB_C9_50_weighted.json,,,
+MB_C10_1,10,20,weighted,60000,60000,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_1_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_1_weighted.json,,,
+MB_C10_2,10,20,weighted,27086,27086,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_2_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_2_weighted.json,,,
+MB_C10_3,10,20,weighted,39375,39375,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_3_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_3_weighted.json,,,
+MB_C10_4,10,20,weighted,36542,36542,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_4_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_4_weighted.json,,,
+MB_C10_5,10,20,weighted,35887,35887,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_5_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_5_weighted.json,,,
+MB_C10_6,10,20,weighted,32388,32388,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_6_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_6_weighted.json,,,
+MB_C10_7,10,20,weighted,38248,38248,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep verify_cg_safe,cg direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_7_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_7_weighted.json,,,
+MB_C10_8,10,20,weighted,26748,26748,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_8_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_8_weighted.json,,,
+MB_C10_9,10,20,weighted,48858,48858,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_9_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_9_weighted.json,,,
+MB_C10_10,10,20,weighted,18036,18036,0.0,1,1,opp_benders probe_cpsat_direct probe_cpsat_slots_v0 sweep_rep,direct opp rep slots_v0,cg_v2_root,results/solutions/sprint/MB_C10_10_weighted_cg_v2_root.json,0,results/final/solutions/MB_C10_10_weighted.json,,,
+MB_C10_11,10,40,weighted,75290,75290,0.0,1,1,probe_cpsat_direct sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C10_11_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_11_weighted.json,,,
+MB_C10_12,10,40,weighted,70890,70890,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C10_12_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_12_weighted.json,,,
+MB_C10_13,10,40,weighted,84675,84675,0.0,1,1,cg_v2_bendex sweep_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C10_13_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_13_weighted.json,,,
+MB_C10_14,10,40,weighted,53454,53454,0.0,1,1,confirm_lattice sweep_rep,lattice rep,sweep_rep,results/solutions/sprint/MB_C10_14_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_14_weighted.json,,,
+MB_C10_15,10,40,weighted,47262,47262,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep rep,sweep_rep,results/solutions/sprint/MB_C10_15_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_15_weighted.json,,,
+MB_C10_16,10,40,weighted,48967,48967,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep rep,lattice_opp,results/solutions/sprint/MB_C10_16_weighted_lattice_opp.json,0,results/final/solutions/MB_C10_16_weighted.json,,,
+MB_C10_17,10,40,weighted,63136,63136,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C10_17_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_17_weighted.json,,,
+MB_C10_18,10,40,weighted,61338,61338,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,lattice_opp,results/solutions/sprint/MB_C10_18_weighted_lattice_opp.json,0,results/final/solutions/MB_C10_18_weighted.json,,,
+MB_C10_19,10,40,weighted,63786,67375,5.327,0,0,lattice_opp,lattice rep,sweep_rep,results/solutions/sprint/MB_C10_19_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_19_weighted.json,,,
+MB_C10_20,10,40,weighted,75404,75404,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C10_20_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_20_weighted.json,,,
+MB_C10_21,10,60,weighted,101810,102552,0.724,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_21_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_21_weighted.json,,,
+MB_C10_22,10,60,weighted,109691,110994,1.174,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_22_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_22_weighted.json,,,
+MB_C10_23,10,60,weighted,95046,104178,8.766,0,0,sweep_rep,rep,sweep_rep,results/solutions/sprint/MB_C10_23_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_23_weighted.json,,,
+MB_C10_24,10,60,weighted,65544,68573,4.417,0,0,lattice_opp,cg lattice,sweep_rep,results/solutions/sprint/MB_C10_24_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_24_weighted.json,,,
+MB_C10_25,10,60,weighted,68867,71704,3.957,0,0,lattice_opp,cg lattice,sweep_rep,results/solutions/sprint/MB_C10_25_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_25_weighted.json,,,
+MB_C10_26,10,60,weighted,111512,114528,2.633,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_26_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_26_weighted.json,,,
+MB_C10_27,10,60,weighted,88392,88392,0.0,1,1,confirm_rep lattice_opp lattice_opp_fullonly verify_lattice_indep,cg lattice lattice_indep rep,lattice_opp,results/solutions/sprint/MB_C10_27_weighted_lattice_opp.json,0,results/final/solutions/MB_C10_27_weighted.json,,,
+MB_C10_28,10,60,weighted,89460,89614,0.172,0,0,verify_cg_safe,cg,lattice_opp,results/solutions/sprint/MB_C10_28_weighted_lattice_opp.json,0,results/final/solutions/MB_C10_28_weighted.json,,,
+MB_C10_29,10,60,weighted,75220,77388,2.801,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_29_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_29_weighted.json,,,
+MB_C10_30,10,60,weighted,67526,72731,7.157,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_30_weighted_sweep_rep.json,0,results/final/solutions/MB_C10_30_weighted.json,,,
+MB_C10_31,10,80,weighted,,121052,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_31_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_31_weighted.json,,,
+MB_C10_32,10,80,weighted,,92270,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_32_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_32_weighted.json,,,
+MB_C10_33,10,80,weighted,,99350,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_33_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C10_33_weighted.json,,,
+MB_C10_34,10,80,weighted,,132494,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_34_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_34_weighted.json,,,
+MB_C10_35,10,80,weighted,,129064,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_35_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C10_35_weighted.json,,,
+MB_C10_36,10,80,weighted,,120806,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_36_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_36_weighted.json,,,
+MB_C10_37,10,80,weighted,,138749,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_37_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C10_37_weighted.json,,,
+MB_C10_38,10,80,weighted,,87544,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_38_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_38_weighted.json,,,
+MB_C10_39,10,80,weighted,,117855,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_39_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C10_39_weighted.json,,,
+MB_C10_40,10,80,weighted,,139178,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_40_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_40_weighted.json,,,
+MB_C10_41,10,100,weighted,,134133,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_41_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_41_weighted.json,,,
+MB_C10_42,10,100,weighted,,148224,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_42_weighted_primal_heur_h1x.json,0,results/final/solutions/MB_C10_42_weighted.json,,,
+MB_C10_43,10,100,weighted,,149948,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_43_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_43_weighted.json,,,
+MB_C10_44,10,100,weighted,,163472,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_44_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C10_44_weighted.json,,,
+MB_C10_45,10,100,weighted,,166343,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_45_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_45_weighted.json,,,
+MB_C10_46,10,100,weighted,,114998,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_46_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_46_weighted.json,,,
+MB_C10_47,10,100,weighted,,121008,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_47_weighted_primal_heur_h1.json,0,results/final/solutions/MB_C10_47_weighted.json,,,
+MB_C10_48,10,100,weighted,,171977,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_48_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C10_48_weighted.json,,,
+MB_C10_49,10,100,weighted,,152965,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_49_weighted_primal_lns_l1x.json,0,results/final/solutions/MB_C10_49_weighted.json,,,
+MB_C10_50,10,100,weighted,,134872,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_50_weighted_primal_lns_l1.json,0,results/final/solutions/MB_C10_50_weighted.json,,,
+MB_C1_1,1,20,area,727,727,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_1_area_cg_v2_root.json,0,results/final/solutions/MB_C1_1_area.json,727,648,0
+MB_C1_2,1,20,area,462,462,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_2_area_cg_v2_root.json,0,results/final/solutions/MB_C1_2_area.json,462,434,0
+MB_C1_3,1,20,area,764,764,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_3_area_cg_v2_root.json,0,results/final/solutions/MB_C1_3_area.json,764,650,0
+MB_C1_4,1,20,area,488,488,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_4_area_cg_v2_root.json,0,results/final/solutions/MB_C1_4_area.json,488,470,0
+MB_C1_5,1,20,area,575,575,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_5_area_cg_v2_root.json,0,results/final/solutions/MB_C1_5_area.json,575,534,0
+MB_C1_6,1,20,area,806,806,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_6_area_cg_v2_root.json,0,results/final/solutions/MB_C1_6_area.json,806,736,0
+MB_C1_7,1,20,area,572,572,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_7_area_cg_v2_root.json,0,results/final/solutions/MB_C1_7_area.json,572,536,0
+MB_C1_8,1,20,area,552,552,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_8_area_cg_v2_root.json,0,results/final/solutions/MB_C1_8_area.json,552,507,0
+MB_C1_9,1,20,area,726,726,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_9_area_cg_v2_root.json,0,results/final/solutions/MB_C1_9_area.json,726,626,0
+MB_C1_10,1,20,area,740,740,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C1_10_area_cg_v2_root.json,0,results/final/solutions/MB_C1_10_area.json,740,664,0
+MB_C1_11,1,40,area,908,908,0.0,1,1,lattice_opp lattice_opp_fullonly probe_cpsat_direct verify_lattice_indep,cg direct lattice lattice_indep,sweep_rep,results/solutions/sprint/MB_C1_11_area_sweep_rep.json,0,results/final/solutions/MB_C1_11_area.json,908,896,0
+MB_C1_12,1,40,area,1120,1120,0.0,1,1,cg_v2_bendex opp_benders probe_cpsat_direct verify_cg_safe verify_opp_cpsat_direct,cg direct opp,cg_v2_bendex,results/solutions/sprint/MB_C1_12_area_cg_v2_bendex.json,0,results/final/solutions/MB_C1_12_area.json,1120,1070,0
+MB_C1_13,1,40,area,1422,1422,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,cg_v2_bendex,results/solutions/sprint/MB_C1_13_area_cg_v2_bendex.json,0,results/final/solutions/MB_C1_13_area.json,1422,1390,0
+MB_C1_14,1,40,area,1332,1332,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,packingsolver,results/solutions/sprint/MB_C1_14_area_packingsolver_pass1.json,0,results/final/solutions/MB_C1_14_area.json,1332,1249,0
+MB_C1_15,1,40,area,1421,1421,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,sweep_cross,results/solutions/sprint/MB_C1_15_area_sweep_cross.json,0,results/final/solutions/MB_C1_15_area.json,1421,1376,0
+MB_C1_16,1,40,area,1091,1091,0.0,1,1,confirm_lattice sweep_rep,lattice rep,sweep_rep,results/solutions/sprint/MB_C1_16_area_sweep_rep.json,0,results/final/solutions/MB_C1_16_area.json,1091,1061,0
+MB_C1_17,1,40,area,1079,1079,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C1_17_area_sweep_rep.json,0,results/final/solutions/MB_C1_17_area.json,1079,1077,0
+MB_C1_18,1,40,area,1711,1711,0.0,1,1,probe_cpsat_direct sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_cross,results/solutions/sprint/MB_C1_18_area_sweep_cross.json,0,results/final/solutions/MB_C1_18_area.json,1711,1454,0
+MB_C1_19,1,40,area,1026,1044,1.724,0,0,lattice_opp,cg lattice,sweep_rep,results/solutions/sprint/MB_C1_19_area_sweep_rep.json,0,results/final/solutions/MB_C1_19_area.json,1044,1008,0
+MB_C1_20,1,40,area,1052,1068,1.498,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_20_area_primal_heur_h2.json,0,results/final/solutions/MB_C1_20_area.json,1060,1028,0
+MB_C1_21,1,60,area,2038,2084,2.207,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_21_area_primal_heur_h2.json,0,results/final/solutions/MB_C1_21_area.json,2056,2007,0
+MB_C1_22,1,60,area,1796,1817,1.156,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C1_22_area_primal_lns_l2.json,0,results/final/solutions/MB_C1_22_area.json,1817,1767,0
+MB_C1_23,1,60,area,1892,1916,1.253,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_23_area_primal_heur_h2.json,0,results/final/solutions/MB_C1_23_area.json,1914,1818,0
+MB_C1_24,1,60,area,1992,1992,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C1_24_area_cg_v2_bendex.json,0,results/final/solutions/MB_C1_24_area.json,1992,1823,0
+MB_C1_25,1,60,area,1688,1724,2.088,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C1_25_area_primal_heur_h2.json,0,results/final/solutions/MB_C1_25_area.json,1688,1650,0
+MB_C1_26,1,60,area,,1713,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_26_area_primal_heur_h2.json,0,results/final/solutions/MB_C1_26_area.json,1678,1659,0
+MB_C1_27,1,60,area,,1500,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_27_area_primal_lns_l2.json,0,results/final/solutions/MB_C1_27_area.json,1485,1480,0
+MB_C1_28,1,60,area,,2087,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_28_area_primal_lns_l2.json,0,results/final/solutions/MB_C1_28_area.json,2079,1883,0
+MB_C1_29,1,60,area,,1749,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_29_area_primal_lns_l2.json,0,results/final/solutions/MB_C1_29_area.json,1744,1737,0
+MB_C1_30,1,60,area,,2291,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_30_area_primal_heur_h2.json,0,results/final/solutions/MB_C1_30_area.json,2291,2108,0
+MB_C1_31,1,80,area,,2329,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_31_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_31_area.json,2288,2274,0
+MB_C1_32,1,80,area,,2485,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_32_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_32_area.json,2430,2407,0
+MB_C1_33,1,80,area,,2633,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_33_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_33_area.json,2558,2298,0
+MB_C1_34,1,80,area,,2537,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_34_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_34_area.json,2492,2438,0
+MB_C1_35,1,80,area,,2450,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_35_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_35_area.json,2398,2352,0
+MB_C1_36,1,80,area,,2694,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_36_area.json,2628,2521,0
+MB_C1_37,1,80,area,,2954,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_37_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_37_area.json,2852,2660,0
+MB_C1_38,1,80,area,,2873,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_38_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_38_area.json,2791,2644,0
+MB_C1_39,1,80,area,,2926,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_39_area_primal_lns_l2.json,0,results/final/solutions/MB_C1_39_area.json,2898,2788,0
+MB_C1_40,1,80,area,,2556,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_40_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_40_area.json,2520,2426,0
+MB_C1_41,1,100,area,,2785,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_41_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_41_area.json,2735,2733,0
+MB_C1_42,1,100,area,,3093,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_42_area_primal_lns_l2.json,0,results/final/solutions/MB_C1_42_area.json,3067,3040,0
+MB_C1_43,1,100,area,,2856,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_43_area_primal_lns_l1.json,0,results/final/solutions/MB_C1_43_area.json,2744,2668,0
+MB_C1_44,1,100,area,,3056,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_44_area_primal_lns_l1.json,0,results/final/solutions/MB_C1_44_area.json,2944,2882,0
+MB_C1_45,1,100,area,,3218,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_45_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_45_area.json,3116,3015,0
+MB_C1_46,1,100,area,,3675,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_46_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_46_area.json,3555,3378,0
+MB_C1_47,1,100,area,,2819,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_47_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_47_area.json,2740,2737,0
+MB_C1_48,1,100,area,,3367,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_48_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_48_area.json,3256,3121,0
+MB_C1_49,1,100,area,,3111,,0,0,,,primal_lns,results/solutions/sprint/MB_C1_49_area_primal_lns_l1.json,0,results/final/solutions/MB_C1_49_area.json,3031,2986,0
+MB_C1_50,1,100,area,,3732,,0,0,,,primal_heur,results/solutions/sprint/MB_C1_50_area_primal_heur_h1.json,0,results/final/solutions/MB_C1_50_area.json,3664,3417,0
+MB_C2_1,2,20,area,816,816,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_1_area_cg_v2_root.json,0,results/final/solutions/MB_C2_1_area.json,816,816,1
+MB_C2_2,2,20,area,551,551,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_2_area_cg_v2_root.json,0,results/final/solutions/MB_C2_2_area.json,551,551,1
+MB_C2_3,2,20,area,700,700,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_3_area_cg_v2_root.json,0,results/final/solutions/MB_C2_3_area.json,700,700,1
+MB_C2_4,2,20,area,493,493,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_4_area_cg_v2_root.json,0,results/final/solutions/MB_C2_4_area.json,493,493,1
+MB_C2_5,2,20,area,608,608,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_5_area_cg_v2_root.json,0,results/final/solutions/MB_C2_5_area.json,608,608,1
+MB_C2_6,2,20,area,777,777,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_6_area_cg_v2_root.json,0,results/final/solutions/MB_C2_6_area.json,777,777,1
+MB_C2_7,2,20,area,575,575,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_7_area_cg_v2_root.json,0,results/final/solutions/MB_C2_7_area.json,575,575,1
+MB_C2_8,2,20,area,594,594,0.0,1,1,opp_benders opp_cpsat opp_dff verify_opp_cpsat_direct verify_opp_parity verify_primal_cpsat_direct verify_sweep_direct_lbm1,direct opp opp_indep,cg_v2_root,results/solutions/sprint/MB_C2_8_area_cg_v2_root.json,0,results/final/solutions/MB_C2_8_area.json,594,513,0
+MB_C2_9,2,20,area,900,900,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_9_area_cg_v2_root.json,0,results/final/solutions/MB_C2_9_area.json,900,900,1
+MB_C2_10,2,20,area,725,725,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C2_10_area_cg_v2_root.json,0,results/final/solutions/MB_C2_10_area.json,725,725,1
+MB_C2_11,2,40,area,900,900,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,cg_v2_root,results/solutions/sprint/MB_C2_11_area_cg_v2_root.json,0,results/final/solutions/MB_C2_11_area.json,900,900,1
+MB_C2_12,2,40,area,1080,1080,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_12_area_cg_v2_root.json,0,results/final/solutions/MB_C2_12_area.json,1080,1080,1
+MB_C2_13,2,40,area,1400,1400,0.0,1,1,cg_v2_root opp_benders verify_cg_safe verify_primal_areacover verify_primal_cpsat_direct,area_bound cg direct opp,primal_lns,results/solutions/sprint/MB_C2_13_area_primal_lns_l1.json,0,results/final/solutions/MB_C2_13_area.json,1400,1400,1
+MB_C2_14,2,40,area,1272,1272,0.0,1,1,cg_v2_root opp_benders verify_cg_safe verify_primal_cpsat_direct,cg direct opp,primal_heur,results/solutions/sprint/MB_C2_14_area_primal_heur_h2.json,0,results/final/solutions/MB_C2_14_area.json,1272,1272,1
+MB_C2_15,2,40,area,1386,1386,0.0,1,1,cg_v2_bendex cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C2_15_area_cg_v2_bendex.json,0,results/final/solutions/MB_C2_15_area.json,1386,1386,1
+MB_C2_16,2,40,area,1103,1103,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C2_16_area_primal_heur_h2.json,0,results/final/solutions/MB_C2_16_area.json,1103,1103,1
+MB_C2_17,2,40,area,1076,1076,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C2_17_area_sweep_rep.json,0,results/final/solutions/MB_C2_17_area.json,1076,1076,1
+MB_C2_18,2,40,area,1524,1524,0.0,1,1,cg_v2_root verify_cg_safe verify_primal_cpsat_direct,cg direct,primal_heur,results/solutions/sprint/MB_C2_18_area_primal_heur_h2.json,0,results/final/solutions/MB_C2_18_area.json,1524,1524,1
+MB_C2_19,2,40,area,1026,1026,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C2_19_area_cg_v2_root.json,0,results/final/solutions/MB_C2_19_area.json,1026,1026,1
+MB_C2_20,2,40,area,1147,1147,0.0,1,1,cg_v2_bendex cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_bendex,results/solutions/sprint/MB_C2_20_area_cg_v2_bendex.json,0,results/final/solutions/MB_C2_20_area.json,1147,1147,1
+MB_C2_21,2,60,area,,2034,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_21_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_21_area.json,2007,2007,1
+MB_C2_22,2,60,area,,1786,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_22_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_22_area.json,1784,1784,1
+MB_C2_23,2,60,area,,1858,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_23_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_23_area.json,1824,1824,1
+MB_C2_24,2,60,area,,1839,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_24_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_24_area.json,1839,1839,1
+MB_C2_25,2,60,area,,1671,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_25_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_25_area.json,1650,1650,1
+MB_C2_26,2,60,area,,1682,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_26_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_26_area.json,1666,1666,1
+MB_C2_27,2,60,area,,1506,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_27_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_27_area.json,1506,1506,1
+MB_C2_28,2,60,area,,1899,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_28_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_28_area.json,1890,1890,1
+MB_C2_29,2,60,area,,1771,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_29_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_29_area.json,1739,1739,1
+MB_C2_30,2,60,area,,2148,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_30_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_30_area.json,2119,2119,1
+MB_C2_31,2,80,area,,2328,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_31_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_31_area.json,2328,2328,1
+MB_C2_32,2,80,area,,2459,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_32_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_32_area.json,2415,2415,1
+MB_C2_33,2,80,area,,2335,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_33_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_33_area.json,2304,2304,1
+MB_C2_34,2,80,area,,2592,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_34_area_primal_heur_h1x.json,0,results/final/solutions/MB_C2_34_area.json,2592,2592,1
+MB_C2_35,2,80,area,,2387,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_35_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_35_area.json,2358,2358,1
+MB_C2_36,2,80,area,,2565,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_36_area.json,2522,2522,1
+MB_C2_37,2,80,area,,2688,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_37_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_37_area.json,2662,2662,1
+MB_C2_38,2,80,area,,2666,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_38_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_38_area.json,2653,2653,1
+MB_C2_39,2,80,area,,2880,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_39_area_primal_heur_h1x.json,0,results/final/solutions/MB_C2_39_area.json,2792,2792,1
+MB_C2_40,2,80,area,,2438,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_40_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_40_area.json,2426,2426,1
+MB_C2_41,2,100,area,,2762,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_41_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_41_area.json,2736,2736,1
+MB_C2_42,2,100,area,,3056,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_42_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_42_area.json,3042,3042,1
+MB_C2_43,2,100,area,,2686,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_43_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_43_area.json,2673,2673,1
+MB_C2_44,2,100,area,,2908,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_44_area_primal_heur_h1x.json,0,results/final/solutions/MB_C2_44_area.json,2897,2897,1
+MB_C2_45,2,100,area,,3060,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_45_area_primal_heur_h1x.json,0,results/final/solutions/MB_C2_45_area.json,3015,3015,1
+MB_C2_46,2,100,area,,3414,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_46_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_46_area.json,3378,3378,1
+MB_C2_47,2,100,area,,2746,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_47_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_47_area.json,2741,2741,1
+MB_C2_48,2,100,area,,3141,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_48_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_48_area.json,3122,3122,1
+MB_C2_49,2,100,area,,3009,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_49_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_49_area.json,2991,2991,1
+MB_C2_50,2,100,area,,3461,,0,0,,,primal_heur,results/solutions/sprint/MB_C2_50_area_primal_heur_h1.json,0,results/final/solutions/MB_C2_50_area.json,3417,3417,1
+MB_C3_1,3,20,area,7672,7672,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,sweep_cross,results/solutions/sprint/MB_C3_1_area_sweep_cross.json,0,results/final/solutions/MB_C3_1_area.json,7672,6888,0
+MB_C3_2,3,20,area,4800,4800,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C3_2_area_cg_v2_root.json,0,results/final/solutions/MB_C3_2_area.json,4800,4344,0
+MB_C3_3,3,20,area,8101,8101,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C3_3_area_cg_v2_root.json,0,results/final/solutions/MB_C3_3_area.json,8101,7094,0
+MB_C3_4,3,20,area,5614,5614,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,opp_benders,results/solutions/sprint/MB_C3_4_area_opp_benders.json,0,results/final/solutions/MB_C3_4_area.json,5614,4964,0
+MB_C3_5,3,20,area,6366,6366,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C3_5_area_cg_v2_root.json,0,results/final/solutions/MB_C3_5_area.json,6366,5523,0
+MB_C3_6,3,20,area,8607,8607,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C3_6_area_cg_v2_root.json,0,results/final/solutions/MB_C3_6_area.json,8607,7605,0
+MB_C3_7,3,20,area,6302,6302,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C3_7_area_cg_v2_root.json,0,results/final/solutions/MB_C3_7_area.json,6302,5448,0
+MB_C3_8,3,20,area,5924,5924,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C3_8_area_cg_v2_root.json,0,results/final/solutions/MB_C3_8_area.json,5924,5176,0
+MB_C3_9,3,20,area,7394,7394,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,opp_benders,results/solutions/sprint/MB_C3_9_area_opp_benders.json,0,results/final/solutions/MB_C3_9_area.json,7394,6740,0
+MB_C3_10,3,20,area,9073,9073,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C3_10_area_cg_v2_root.json,0,results/final/solutions/MB_C3_10_area.json,9073,7429,0
+MB_C3_11,3,40,area,9208,9208,0.0,1,1,cg_v2_bendex probe_cpsat_direct verify_cg_safe,cg direct,sweep_rep,results/solutions/sprint/MB_C3_11_area_sweep_rep.json,0,results/final/solutions/MB_C3_11_area.json,9404,8968,0
+MB_C3_12,3,40,area,12200,12275,0.611,0,0,cg_v2_bendex verify_cg_safe,cg,cpsat_direct,results/solutions/sprint/MB_C3_12_area_cpsat_direct_h2h.json,0,results/final/solutions/MB_C3_12_area.json,12275,11400,0
+MB_C3_13,3,40,area,16229,16339,0.673,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C3_13_area_primal_lns_l2.json,0,results/final/solutions/MB_C3_13_area.json,16238,14528,0
+MB_C3_14,3,40,area,14641,14641,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,cpsat_direct,results/solutions/sprint/MB_C3_14_area_cpsat_direct_h2h.json,0,results/final/solutions/MB_C3_14_area.json,14641,13178,0
+MB_C3_15,3,40,area,17404,17404,0.0,1,1,probe_cpsat_direct sweep_rep verify_primal_cpsat_direct verify_sweep_direct_lbm1,direct rep,packingsolver,results/solutions/sprint/MB_C3_15_area_packingsolver_pass1.json,0,results/final/solutions/MB_C3_15_area.json,17404,15103,0
+MB_C3_16,3,40,area,12351,12351,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C3_16_area_sweep_rep.json,0,results/final/solutions/MB_C3_16_area.json,12351,11156,0
+MB_C3_17,3,40,area,12321,12321,0.0,1,1,cg_v2_bendex lattice_opp lattice_opp_fullonly probe_cpsat_direct verify_cg_safe verify_lattice_indep,cg direct lattice lattice_indep rep,lattice_opp,results/solutions/sprint/MB_C3_17_area_lattice_opp.json,0,results/final/solutions/MB_C3_17_area.json,12644,11622,0
+MB_C3_18,3,40,area,17911,17911,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C3_18_area_sweep_rep.json,0,results/final/solutions/MB_C3_18_area.json,17911,15902,0
+MB_C3_19,3,40,area,11160,11592,3.727,0,0,cg_v2_bendex verify_cg_safe,cg,verify_primal_recost,results/solutions/sprint/MB_C3_19_area_verify_primal_recost.json,0,results/final/solutions/MB_C3_19_area.json,11200,10712,0
+MB_C3_20,3,40,area,11342,11752,3.489,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C3_20_area_primal_heur_h2.json,0,results/final/solutions/MB_C3_20_area.json,11388,10766,0
+MB_C3_21,3,60,area,,25540,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_21_area_primal_heur_h2.json,0,results/final/solutions/MB_C3_21_area.json,25133,21570,0
+MB_C3_22,3,60,area,,20482,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_22_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_22_area.json,19622,18220,0
+MB_C3_23,3,60,area,,21508,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_23_area_primal_heur_h2.json,0,results/final/solutions/MB_C3_23_area.json,20782,19664,0
+MB_C3_24,3,60,area,,23063,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_24_area_primal_heur_h2.json,0,results/final/solutions/MB_C3_24_area.json,22391,19663,0
+MB_C3_25,3,60,area,,19256,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_25_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_25_area.json,18512,17408,0
+MB_C3_26,3,60,area,,19508,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_26_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_26_area.json,19024,17703,0
+MB_C3_27,3,60,area,,17349,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_27_area_primal_heur_h2.json,0,results/final/solutions/MB_C3_27_area.json,16922,15937,0
+MB_C3_28,3,60,area,,22825,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_28_area_primal_heur_h2.json,0,results/final/solutions/MB_C3_28_area.json,21985,20455,0
+MB_C3_29,3,60,area,,19886,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_29_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_29_area.json,19302,18512,0
+MB_C3_30,3,60,area,,25226,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_30_area_primal_heur_h2.json,0,results/final/solutions/MB_C3_30_area.json,24682,23294,0
+MB_C3_31,3,80,area,,25642,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_31_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_31_area.json,25006,24258,0
+MB_C3_32,3,80,area,,27949,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_32_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_32_area.json,27134,25445,0
+MB_C3_33,3,80,area,,29040,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_33_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_33_area.json,27226,24830,0
+MB_C3_34,3,80,area,,27825,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_34_area_primal_heur_h1.json,0,results/final/solutions/MB_C3_34_area.json,26987,26128,0
+MB_C3_35,3,80,area,,26316,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_35_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_35_area.json,26108,24958,0
+MB_C3_36,3,80,area,,30103,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C3_36_area.json,29407,27464,0
+MB_C3_37,3,80,area,,31755,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_37_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_37_area.json,30555,29040,0
+MB_C3_38,3,80,area,,35648,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_38_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_38_area.json,34072,28864,0
+MB_C3_39,3,80,area,,33060,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_39_area_primal_heur_h1.json,0,results/final/solutions/MB_C3_39_area.json,32744,29756,0
+MB_C3_40,3,80,area,,29356,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_40_area_primal_heur_h1.json,0,results/final/solutions/MB_C3_40_area.json,28084,25943,0
+MB_C3_41,3,100,area,,30254,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_41_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_41_area.json,29430,28723,0
+MB_C3_42,3,100,area,,35841,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_42_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_42_area.json,34996,33240,0
+MB_C3_43,3,100,area,,30712,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_43_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_43_area.json,29383,28224,0
+MB_C3_44,3,100,area,,32066,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_44_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_44_area.json,31156,30525,0
+MB_C3_45,3,100,area,,34520,,0,0,,,primal_heur,results/solutions/sprint/MB_C3_45_area_primal_heur_h1.json,0,results/final/solutions/MB_C3_45_area.json,33264,32328,0
+MB_C3_46,3,100,area,,41436,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_46_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_46_area.json,40579,36763,0
+MB_C3_47,3,100,area,,31385,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_47_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_47_area.json,30541,29445,0
+MB_C3_48,3,100,area,,36307,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_48_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_48_area.json,35003,33424,0
+MB_C3_49,3,100,area,,34087,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_49_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_49_area.json,32652,31501,0
+MB_C3_50,3,100,area,,42030,,0,0,,,primal_lns,results/solutions/sprint/MB_C3_50_area_primal_lns_l1.json,0,results/final/solutions/MB_C3_50_area.json,40806,37188,0
+MB_C4_1,4,20,area,8300,8300,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_1_area_cg_v2_root.json,0,results/final/solutions/MB_C4_1_area.json,8300,8300,1
+MB_C4_2,4,20,area,4830,4830,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_2_area_cg_v2_root.json,0,results/final/solutions/MB_C4_2_area.json,4830,4830,1
+MB_C4_3,4,20,area,7425,7425,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_3_area_cg_v2_root.json,0,results/final/solutions/MB_C4_3_area.json,7425,7425,1
+MB_C4_4,4,20,area,5280,5280,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_4_area_cg_v2_root.json,0,results/final/solutions/MB_C4_4_area.json,5280,5280,1
+MB_C4_5,4,20,area,6370,6370,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_5_area_cg_v2_root.json,0,results/final/solutions/MB_C4_5_area.json,6370,6370,1
+MB_C4_6,4,20,area,9073,9073,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_6_area_cg_v2_root.json,0,results/final/solutions/MB_C4_6_area.json,9073,7671,0
+MB_C4_7,4,20,area,5880,5880,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_7_area_cg_v2_root.json,0,results/final/solutions/MB_C4_7_area.json,5880,5880,1
+MB_C4_8,4,20,area,5310,5310,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_8_area_cg_v2_root.json,0,results/final/solutions/MB_C4_8_area.json,5310,5310,1
+MB_C4_9,4,20,area,7020,7020,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_9_area_cg_v2_root.json,0,results/final/solutions/MB_C4_9_area.json,7020,7020,1
+MB_C4_10,4,20,area,8160,8160,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C4_10_area_cg_v2_root.json,0,results/final/solutions/MB_C4_10_area.json,8160,8160,1
+MB_C4_11,4,40,area,9112,9112,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct verify_cg_safe,cg direct opp,cg_v2_root,results/solutions/sprint/MB_C4_11_area_cg_v2_root.json,0,results/final/solutions/MB_C4_11_area.json,9112,9112,1
+MB_C4_12,4,40,area,12155,12155,0.0,1,1,cg_v2_root opp_benders verify_cg_safe,cg opp,cg_v2_root,results/solutions/sprint/MB_C4_12_area_cg_v2_root.json,0,results/final/solutions/MB_C4_12_area.json,12155,12155,1
+MB_C4_13,4,40,area,15115,15115,0.0,1,1,cg_v2_bendex cg_v2_root opp_benders verify_cg_safe,cg opp,opp_benders,results/solutions/sprint/MB_C4_13_area_opp_benders.json,0,results/final/solutions/MB_C4_13_area.json,15115,15115,1
+MB_C4_14,4,40,area,15589,15589,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_14_area_cg_v2_root.json,0,results/final/solutions/MB_C4_14_area.json,15589,15589,1
+MB_C4_15,4,40,area,15114,15877,4.806,0,0,cg_v2_bendex cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,sweep_cross,results/solutions/sprint/MB_C4_15_area_sweep_cross.json,0,results/final/solutions/MB_C4_15_area.json,15877,15114,0
+MB_C4_16,4,40,area,13491,13491,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C4_16_area_cg_v2_root.json,0,results/final/solutions/MB_C4_16_area.json,13491,13491,1
+MB_C4_17,4,40,area,11780,12383,4.87,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,primal_heur,results/solutions/sprint/MB_C4_17_area_primal_heur_h2.json,0,results/final/solutions/MB_C4_17_area.json,12383,11780,0
+MB_C4_18,4,40,area,15906,17046,6.688,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,primal_lns,results/solutions/sprint/MB_C4_18_area_primal_lns_l1.json,0,results/final/solutions/MB_C4_18_area.json,16290,15906,0
+MB_C4_19,4,40,area,11160,11160,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C4_19_area_sweep_rep.json,0,results/final/solutions/MB_C4_19_area.json,11160,11160,1
+MB_C4_20,4,40,area,10870,11400,4.649,0,0,cg_v2_bendex cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,sweep_cross,results/solutions/sprint/MB_C4_20_area_sweep_cross.json,0,results/final/solutions/MB_C4_20_area.json,11400,10870,0
+MB_C4_21,4,60,area,,22345,,0,0,,,primal_lns,results/solutions/sprint/MB_C4_21_area_primal_lns_l1.json,0,results/final/solutions/MB_C4_21_area.json,21841,21581,0
+MB_C4_22,4,60,area,,19074,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_22_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_22_area.json,18522,18284,0
+MB_C4_23,4,60,area,,21663,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_23_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_23_area.json,20000,19671,0
+MB_C4_24,4,60,area,,20584,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_24_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_24_area.json,19866,19720,0
+MB_C4_25,4,60,area,,18188,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_25_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_25_area.json,17908,17908,1
+MB_C4_26,4,60,area,,18900,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_26_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_26_area.json,17943,17754,0
+MB_C4_27,4,60,area,,16802,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_27_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_27_area.json,16241,15940,0
+MB_C4_28,4,60,area,,21420,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_28_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_28_area.json,20988,20494,0
+MB_C4_29,4,60,area,,19628,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_29_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_29_area.json,19080,18632,0
+MB_C4_30,4,60,area,,24922,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_30_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_30_area.json,23758,23294,0
+MB_C4_31,4,80,area,,25423,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_31_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_31_area.json,24592,24320,0
+MB_C4_32,4,80,area,,26625,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_32_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_32_area.json,25767,25472,0
+MB_C4_33,4,80,area,,26150,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_33_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_33_area.json,25112,24930,0
+MB_C4_34,4,80,area,,27269,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_34_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_34_area.json,26595,26144,0
+MB_C4_35,4,80,area,,26350,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_35_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_35_area.json,25455,25163,0
+MB_C4_36,4,80,area,,28589,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_36_area.json,27841,27464,0
+MB_C4_37,4,80,area,,30893,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_37_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_37_area.json,29472,29105,0
+MB_C4_38,4,80,area,,30042,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_38_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_38_area.json,29337,28930,0
+MB_C4_39,4,80,area,,31150,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_39_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_39_area.json,30375,29800,0
+MB_C4_40,4,80,area,,27215,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_40_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_40_area.json,26656,25955,0
+MB_C4_41,4,100,area,,30576,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_41_area_primal_heur_h1x.json,0,results/final/solutions/MB_C4_41_area.json,29207,29207,1
+MB_C4_42,4,100,area,,34453,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_42_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_42_area.json,33668,33288,0
+MB_C4_43,4,100,area,,29517,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_43_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_43_area.json,28672,28267,0
+MB_C4_44,4,100,area,,32021,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_44_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_44_area.json,30991,30680,0
+MB_C4_45,4,100,area,,33556,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_45_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_45_area.json,32797,32370,0
+MB_C4_46,4,100,area,,38335,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_46_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_46_area.json,37279,36810,0
+MB_C4_47,4,100,area,,30603,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_47_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_47_area.json,29800,29484,0
+MB_C4_48,4,100,area,,35092,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_48_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_48_area.json,34198,33466,0
+MB_C4_49,4,100,area,,32528,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_49_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_49_area.json,31863,31524,0
+MB_C4_50,4,100,area,,38598,,0,0,,,primal_heur,results/solutions/sprint/MB_C4_50_area_primal_heur_h1.json,0,results/final/solutions/MB_C4_50_area.json,37624,37198,0
+MB_C5_1,5,20,area,67888,67888,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_1_area_cg_v2_root.json,0,results/final/solutions/MB_C5_1_area.json,67888,53802,0
+MB_C5_2,5,20,area,37746,37746,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_2_area_cg_v2_root.json,0,results/final/solutions/MB_C5_2_area.json,37746,32476,0
+MB_C5_3,5,20,area,66072,66072,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_3_area_cg_v2_root.json,0,results/final/solutions/MB_C5_3_area.json,66072,55268,0
+MB_C5_4,5,20,area,44739,44739,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,cg_v2_root,results/solutions/sprint/MB_C5_4_area_cg_v2_root.json,0,results/final/solutions/MB_C5_4_area.json,44739,39227,0
+MB_C5_5,5,20,area,50000,50000,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_5_area_cg_v2_root.json,0,results/final/solutions/MB_C5_5_area.json,50000,43808,0
+MB_C5_6,5,20,area,73352,73352,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_6_area_cg_v2_root.json,0,results/final/solutions/MB_C5_6_area.json,73352,60249,0
+MB_C5_7,5,20,area,51973,51973,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_7_area_cg_v2_root.json,0,results/final/solutions/MB_C5_7_area.json,51973,43770,0
+MB_C5_8,5,20,area,48590,48590,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_8_area_cg_v2_root.json,0,results/final/solutions/MB_C5_8_area.json,48590,40546,0
+MB_C5_9,5,20,area,66042,66042,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_9_area_cg_v2_root.json,0,results/final/solutions/MB_C5_9_area.json,66042,53286,0
+MB_C5_10,5,20,area,69172,69172,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C5_10_area_cg_v2_root.json,0,results/final/solutions/MB_C5_10_area.json,69172,58700,0
+MB_C5_11,5,40,area,74580,75298,0.954,0,0,cg_v2_bendex verify_cg_safe,cg,cpsat_direct,results/solutions/sprint/MB_C5_11_area_cpsat_direct_h2h.json,0,results/final/solutions/MB_C5_11_area.json,75298,69535,0
+MB_C5_12,5,40,area,100000,100000,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C5_12_area_sweep_rep.json,0,results/final/solutions/MB_C5_12_area.json,100000,89712,0
+MB_C5_13,5,40,area,131765,131765,0.0,1,1,opp_benders opp_master_highs verify_opp_relax_cpsat verify_opp_relax_highs,opp opp_indep,sweep_rep,results/solutions/sprint/MB_C5_13_area_sweep_rep.json,0,results/final/solutions/MB_C5_13_area.json,131765,115380,0
+MB_C5_14,5,40,area,116543,116543,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C5_14_area_sweep_rep.json,0,results/final/solutions/MB_C5_14_area.json,116543,104283,0
+MB_C5_15,5,40,area,132250,132250,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_cross,results/solutions/sprint/MB_C5_15_area_sweep_cross.json,0,results/final/solutions/MB_C5_15_area.json,132250,119024,0
+MB_C5_16,5,40,area,99278,99278,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_cross,results/solutions/sprint/MB_C5_16_area_sweep_cross.json,0,results/final/solutions/MB_C5_16_area.json,99278,87792,0
+MB_C5_17,5,40,area,96448,96448,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_cross,results/solutions/sprint/MB_C5_17_area_sweep_cross.json,0,results/final/solutions/MB_C5_17_area.json,96448,90639,0
+MB_C5_18,5,40,area,158488,158488,0.0,1,1,sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_cross,results/solutions/sprint/MB_C5_18_area_sweep_cross.json,0,results/final/solutions/MB_C5_18_area.json,158488,125092,0
+MB_C5_19,5,40,area,91166,94702,3.734,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C5_19_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_19_area.json,92098,83980,0
+MB_C5_20,5,40,area,100000,100000,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C5_20_area_sweep_rep.json,0,results/final/solutions/MB_C5_20_area.json,100000,84534,0
+MB_C5_21,5,60,area,,194942,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_21_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_21_area.json,186964,170660,0
+MB_C5_22,5,60,area,,156341,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_22_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_22_area.json,155933,144221,0
+MB_C5_23,5,60,area,,176414,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_23_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_23_area.json,172715,154680,0
+MB_C5_24,5,60,area,,188851,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_24_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_24_area.json,183406,154926,0
+MB_C5_25,5,60,area,,150556,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_25_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_25_area.json,145278,136652,0
+MB_C5_26,5,60,area,,155375,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_26_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_26_area.json,149165,138657,0
+MB_C5_27,5,60,area,,143932,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_27_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_27_area.json,139288,124612,0
+MB_C5_28,5,60,area,,180965,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_28_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_28_area.json,175170,161090,0
+MB_C5_29,5,60,area,,157984,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_29_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_29_area.json,153600,145152,0
+MB_C5_30,5,60,area,,216752,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_30_area_primal_heur_h2.json,0,results/final/solutions/MB_C5_30_area.json,210928,183568,0
+MB_C5_31,5,80,area,,216504,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_31_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_31_area.json,206369,190251,0
+MB_C5_32,5,80,area,,221297,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_32_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_32_area.json,214179,200789,0
+MB_C5_33,5,80,area,,227692,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_33_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_33_area.json,225000,195188,0
+MB_C5_34,5,80,area,,221338,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_34_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_34_area.json,220018,204488,0
+MB_C5_35,5,80,area,,218938,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_35_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_35_area.json,213352,196230,0
+MB_C5_36,5,80,area,,240875,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_36_area.json,233997,215712,0
+MB_C5_37,5,80,area,,254044,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_37_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_37_area.json,248248,227546,0
+MB_C5_38,5,80,area,,254584,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_38_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_38_area.json,247888,228692,0
+MB_C5_39,5,80,area,,270040,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_39_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_39_area.json,260559,234560,0
+MB_C5_40,5,80,area,,231206,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_40_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_40_area.json,223775,203712,0
+MB_C5_41,5,100,area,,248026,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_41_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_41_area.json,238122,225668,0
+MB_C5_42,5,100,area,,289864,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_42_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_42_area.json,279929,261774,0
+MB_C5_43,5,100,area,,240868,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_43_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_43_area.json,233018,222057,0
+MB_C5_44,5,100,area,,261322,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_44_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_44_area.json,253132,240024,0
+MB_C5_45,5,100,area,,279394,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_45_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_45_area.json,269970,254217,0
+MB_C5_46,5,100,area,,327047,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_46_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_46_area.json,314629,289969,0
+MB_C5_47,5,100,area,,256698,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_47_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_47_area.json,246575,231135,0
+MB_C5_48,5,100,area,,302296,,0,0,,,primal_lns,results/solutions/sprint/MB_C5_48_area_primal_lns_l1.json,0,results/final/solutions/MB_C5_48_area.json,288628,262880,0
+MB_C5_49,5,100,area,,271703,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_49_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_49_area.json,264746,249113,0
+MB_C5_50,5,100,area,,328572,,0,0,,,primal_heur,results/solutions/sprint/MB_C5_50_area_primal_heur_h1.json,0,results/final/solutions/MB_C5_50_area.json,321197,292519,0
+MB_C6_1,6,20,area,62928,62928,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_1_area_cg_v2_root.json,0,results/final/solutions/MB_C6_1_area.json,62928,62928,1
+MB_C6_2,6,20,area,41374,41374,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_2_area_cg_v2_root.json,0,results/final/solutions/MB_C6_2_area.json,41374,41374,1
+MB_C6_3,6,20,area,63336,63336,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_3_area_cg_v2_root.json,0,results/final/solutions/MB_C6_3_area.json,63336,63336,1
+MB_C6_4,6,20,area,49956,49956,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_4_area_cg_v2_root.json,0,results/final/solutions/MB_C6_4_area.json,49956,49956,1
+MB_C6_5,6,20,area,51038,51038,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_5_area_cg_v2_root.json,0,results/final/solutions/MB_C6_5_area.json,51038,51038,1
+MB_C6_6,6,20,area,83080,83080,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_6_area_cg_v2_root.json,0,results/final/solutions/MB_C6_6_area.json,83080,83080,1
+MB_C6_7,6,20,area,50052,50052,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_7_area_cg_v2_root.json,0,results/final/solutions/MB_C6_7_area.json,50052,50052,1
+MB_C6_8,6,20,area,42570,42570,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_8_area_cg_v2_root.json,0,results/final/solutions/MB_C6_8_area.json,42570,42570,1
+MB_C6_9,6,20,area,56956,56956,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_9_area_cg_v2_root.json,0,results/final/solutions/MB_C6_9_area.json,56956,56956,1
+MB_C6_10,6,20,area,66483,66483,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C6_10_area_cg_v2_root.json,0,results/final/solutions/MB_C6_10_area.json,66483,66483,1
+MB_C6_11,6,40,area,90000,90000,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct verify_cg_safe verify_primal_cpsat_direct,cg direct opp,cg_v2_root,results/solutions/sprint/MB_C6_11_area_cg_v2_root.json,0,results/final/solutions/MB_C6_11_area.json,90000,90000,1
+MB_C6_12,6,40,area,90000,93736,3.986,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,sweep_rep,results/solutions/sprint/MB_C6_12_area_sweep_rep.json,0,results/final/solutions/MB_C6_12_area.json,93736,90000,0
+MB_C6_13,6,40,area,118908,123294,3.557,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,primal_heur,results/solutions/sprint/MB_C6_13_area_primal_heur_h2.json,0,results/final/solutions/MB_C6_13_area.json,118908,118908,1
+MB_C6_14,6,40,area,106104,108664,2.356,0,0,cg_v2_root opp_benders verify_cg_safe,cg opp,sweep_rep,results/solutions/sprint/MB_C6_14_area_sweep_rep.json,0,results/final/solutions/MB_C6_14_area.json,108664,106104,0
+MB_C6_15,6,40,area,119510,125780,4.985,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,cg_v2_root,results/solutions/sprint/MB_C6_15_area_cg_v2_root.json,0,results/final/solutions/MB_C6_15_area.json,125780,119510,0
+MB_C6_16,6,40,area,90000,90000,0.0,1,1,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,sweep_rep,results/solutions/sprint/MB_C6_16_area_sweep_rep.json,0,results/final/solutions/MB_C6_16_area.json,90000,90000,1
+MB_C6_17,6,40,area,92322,100284,7.939,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,primal_heur,results/solutions/sprint/MB_C6_17_area_primal_heur_h2.json,0,results/final/solutions/MB_C6_17_area.json,100284,92322,0
+MB_C6_18,6,40,area,125838,136960,8.121,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,sweep_cross,results/solutions/sprint/MB_C6_18_area_sweep_cross.json,0,results/final/solutions/MB_C6_18_area.json,136960,125838,0
+MB_C6_19,6,40,area,86592,91884,5.759,0,0,cg_v2_root opp_benders sweep_rep verify_cg_safe,cg opp rep,primal_heur,results/solutions/sprint/MB_C6_19_area_primal_heur_h2.json,0,results/final/solutions/MB_C6_19_area.json,86592,86592,1
+MB_C6_20,6,40,area,85666,89362,4.136,0,0,opp_benders,opp,sweep_cross,results/solutions/sprint/MB_C6_20_area_sweep_cross.json,0,results/final/solutions/MB_C6_20_area.json,89362,85666,0
+MB_C6_21,6,60,area,,182198,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_21_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_21_area.json,174988,170992,0
+MB_C6_22,6,60,area,,154232,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_22_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_22_area.json,147715,146446,0
+MB_C6_23,6,60,area,,168202,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_23_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_23_area.json,158344,155316,0
+MB_C6_24,6,60,area,,164443,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_24_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_24_area.json,159152,157718,0
+MB_C6_25,6,60,area,,146392,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_25_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_25_area.json,146232,146232,1
+MB_C6_26,6,60,area,,155046,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_26_area_primal_heur_h2.json,0,results/final/solutions/MB_C6_26_area.json,142675,142675,1
+MB_C6_27,6,60,area,,135982,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_27_area_primal_heur_h2.json,0,results/final/solutions/MB_C6_27_area.json,128764,124740,0
+MB_C6_28,6,60,area,,177080,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_28_area_primal_heur_h1x.json,0,results/final/solutions/MB_C6_28_area.json,169944,162692,0
+MB_C6_29,6,60,area,,156767,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_29_area_primal_heur_h1x.json,0,results/final/solutions/MB_C6_29_area.json,149313,145581,0
+MB_C6_30,6,60,area,,193671,,0,0,,,primal_lns,results/solutions/sprint/MB_C6_30_area_primal_lns_l1.json,0,results/final/solutions/MB_C6_30_area.json,188994,183744,0
+MB_C6_31,6,80,area,,201047,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_31_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_31_area.json,194290,190261,0
+MB_C6_32,6,80,area,,212698,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_32_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_32_area.json,205180,202122,0
+MB_C6_33,6,80,area,,207760,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_33_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_33_area.json,201096,195454,0
+MB_C6_34,6,80,area,,215867,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_34_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_34_area.json,210030,206463,0
+MB_C6_35,6,80,area,,207575,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_35_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_35_area.json,206832,197828,0
+MB_C6_36,6,80,area,,230718,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_36_area.json,222921,219888,0
+MB_C6_37,6,80,area,,242054,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_37_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_37_area.json,232779,227965,0
+MB_C6_38,6,80,area,,246628,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_38_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_38_area.json,235532,228708,0
+MB_C6_39,6,80,area,,249600,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_39_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_39_area.json,238962,234783,0
+MB_C6_40,6,80,area,,215856,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_40_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_40_area.json,209382,205674,0
+MB_C6_41,6,100,area,,237620,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_41_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_41_area.json,231897,226276,0
+MB_C6_42,6,100,area,,276230,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_42_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_42_area.json,268995,262280,0
+MB_C6_43,6,100,area,,235492,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_43_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_43_area.json,228450,222714,0
+MB_C6_44,6,100,area,,252842,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_44_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_44_area.json,245178,240060,0
+MB_C6_45,6,100,area,,267000,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_45_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_45_area.json,260300,257068,0
+MB_C6_46,6,100,area,,304558,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_46_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_46_area.json,296856,290446,0
+MB_C6_47,6,100,area,,242269,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_47_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_47_area.json,237151,231588,0
+MB_C6_48,6,100,area,,274624,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_48_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_48_area.json,268928,263096,0
+MB_C6_49,6,100,area,,264214,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_49_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_49_area.json,254553,249306,0
+MB_C6_50,6,100,area,,307972,,0,0,,,primal_heur,results/solutions/sprint/MB_C6_50_area_primal_heur_h1.json,0,results/final/solutions/MB_C6_50_area.json,297998,292582,0
+MB_C7_1,7,20,area,50000,50000,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,cg_v2_root,results/solutions/sprint/MB_C7_1_area_cg_v2_root.json,0,results/final/solutions/MB_C7_1_area.json,50000,43880,0
+MB_C7_2,7,20,area,48720,48720,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C7_2_area_cg_v2_root.json,0,results/final/solutions/MB_C7_2_area.json,48720,39360,0
+MB_C7_3,7,20,area,44743,44743,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,cg_v2_root,results/solutions/sprint/MB_C7_3_area_cg_v2_root.json,0,results/final/solutions/MB_C7_3_area.json,44743,39418,0
+MB_C7_4,7,20,area,62804,62804,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C7_4_area_cg_v2_root.json,0,results/final/solutions/MB_C7_4_area.json,62804,51252,0
+MB_C7_5,7,20,area,54831,54831,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C7_5_area_cg_v2_root.json,0,results/final/solutions/MB_C7_5_area.json,54831,46474,0
+MB_C7_6,7,20,area,53221,53221,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,cg_v2_root,results/solutions/sprint/MB_C7_6_area_cg_v2_root.json,0,results/final/solutions/MB_C7_6_area.json,53221,43956,0
+MB_C7_7,7,20,area,36888,36888,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C7_7_area_cg_v2_root.json,0,results/final/solutions/MB_C7_7_area.json,36888,32979,0
+MB_C7_8,7,20,area,54861,54861,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C7_8_area_cg_v2_root.json,0,results/final/solutions/MB_C7_8_area.json,54861,46620,0
+MB_C7_9,7,20,area,56620,56620,0.0,1,1,cg_v2_root probe_cpsat_direct sweep_rep verify_cg_safe,cg direct rep,cg_v2_root,results/solutions/sprint/MB_C7_9_area_cg_v2_root.json,0,results/final/solutions/MB_C7_9_area.json,56620,48108,0
+MB_C7_10,7,20,area,39812,39812,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C7_10_area_cg_v2_root.json,0,results/final/solutions/MB_C7_10_area.json,39812,34225,0
+MB_C7_11,7,40,area,88825,88825,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep,lattice_opp,results/solutions/sprint/MB_C7_11_area_lattice_opp.json,0,results/final/solutions/MB_C7_11_area.json,88825,83621,0
+MB_C7_12,7,40,area,113400,113400,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep opp,lattice_opp,results/solutions/sprint/MB_C7_12_area_lattice_opp.json,0,results/final/solutions/MB_C7_12_area.json,113400,103174,0
+MB_C7_13,7,40,area,88403,90312,2.114,0,0,cg_v2_bendex verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C7_13_area_primal_lns_l1.json,0,results/final/solutions/MB_C7_13_area.json,88429,83224,0
+MB_C7_14,7,40,area,128320,133440,3.837,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C7_14_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_14_area.json,132272,111892,0
+MB_C7_15,7,40,area,87043,87492,0.513,0,0,cg_v2_bendex verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C7_15_area_sweep_rep.json,0,results/final/solutions/MB_C7_15_area.json,87492,78663,0
+MB_C7_16,7,40,area,105056,107048,1.861,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C7_16_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_16_area.json,105056,95626,0
+MB_C7_17,7,40,area,101400,101400,0.0,1,0,cg_v2_bendex verify_cg_safe,cg,cg_v2_bendex,results/solutions/sprint/MB_C7_17_area_cg_v2_bendex.json,0,results/final/solutions/MB_C7_17_area.json,101400,90896,0
+MB_C7_18,7,40,area,108983,108983,0.0,1,1,cg_v2_bendex sweep_rep,cg rep,sweep_rep,results/solutions/sprint/MB_C7_18_area_sweep_rep.json,0,results/final/solutions/MB_C7_18_area.json,108983,95558,0
+MB_C7_19,7,40,area,73291,75012,2.294,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C7_19_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_19_area.json,73721,69519,0
+MB_C7_20,7,40,area,116511,116511,0.0,1,1,cg_v2_bendex confirm_lattice verify_cg_safe,cg lattice,sweep_cross,results/solutions/sprint/MB_C7_20_area_sweep_cross.json,0,results/final/solutions/MB_C7_20_area.json,116511,102222,0
+MB_C7_21,7,60,area,,163464,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_21_area_primal_lns_l1x.json,0,results/final/solutions/MB_C7_21_area.json,160560,146728,0
+MB_C7_22,7,60,area,,133950,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_22_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_22_area.json,131980,123806,0
+MB_C7_23,7,60,area,,154921,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_23_area_primal_lns_l2.json,0,results/final/solutions/MB_C7_23_area.json,154360,140686,0
+MB_C7_24,7,60,area,,139465,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_24_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_24_area.json,136822,128153,0
+MB_C7_25,7,60,area,,134946,,0,0,,,packingsolver,results/solutions/sprint/MB_C7_25_area_packingsolver_pass1x.json,0,results/final/solutions/MB_C7_25_area.json,134946,121394,0
+MB_C7_26,7,60,area,,132860,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_26_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_26_area.json,131443,121271,0
+MB_C7_27,7,60,area,,136580,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_27_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_27_area.json,133188,124388,0
+MB_C7_28,7,60,area,,160710,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_28_area_primal_lns_l2.json,0,results/final/solutions/MB_C7_28_area.json,160710,145308,0
+MB_C7_29,7,60,area,,137436,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_29_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_29_area.json,132638,127266,0
+MB_C7_30,7,60,area,,184590,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_30_area_primal_heur_h2.json,0,results/final/solutions/MB_C7_30_area.json,178730,162038,0
+MB_C7_31,7,80,area,,197930,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_31_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_31_area.json,191794,179456,0
+MB_C7_32,7,80,area,,230040,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_32_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_32_area.json,224610,209200,0
+MB_C7_33,7,80,area,,197844,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_33_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_33_area.json,192880,177258,0
+MB_C7_34,7,80,area,,211517,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_34_area_primal_lns_l1.json,0,results/final/solutions/MB_C7_34_area.json,203287,184311,0
+MB_C7_35,7,80,area,,223175,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_35_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_35_area.json,219237,196564,0
+MB_C7_36,7,80,area,,225166,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_36_area.json,218683,191665,0
+MB_C7_37,7,80,area,,233226,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_37_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_37_area.json,227628,206354,0
+MB_C7_38,7,80,area,,206908,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_38_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_38_area.json,200577,188957,0
+MB_C7_39,7,80,area,,231644,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_39_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_39_area.json,225342,197428,0
+MB_C7_40,7,80,area,,228745,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_40_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_40_area.json,224677,203651,0
+MB_C7_41,7,100,area,,261138,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_41_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_41_area.json,255847,235954,0
+MB_C7_42,7,100,area,,251768,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_42_area_primal_lns_l1.json,0,results/final/solutions/MB_C7_42_area.json,243251,232187,0
+MB_C7_43,7,100,area,,227857,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_43_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_43_area.json,222981,207677,0
+MB_C7_44,7,100,area,,241313,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_44_area_primal_heur_h1x.json,0,results/final/solutions/MB_C7_44_area.json,237824,225536,0
+MB_C7_45,7,100,area,,245395,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_45_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_45_area.json,241467,215488,0
+MB_C7_46,7,100,area,,280684,,0,0,,,primal_lns,results/solutions/sprint/MB_C7_46_area_primal_lns_l1.json,0,results/final/solutions/MB_C7_46_area.json,270124,247792,0
+MB_C7_47,7,100,area,,255302,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_47_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_47_area.json,252092,228129,0
+MB_C7_48,7,100,area,,269116,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_48_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_48_area.json,261642,243636,0
+MB_C7_49,7,100,area,,244248,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_49_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_49_area.json,238753,225909,0
+MB_C7_50,7,100,area,,311517,,0,0,,,primal_heur,results/solutions/sprint/MB_C7_50_area_primal_heur_h1.json,0,results/final/solutions/MB_C7_50_area.json,302759,272081,0
+MB_C8_1,8,20,area,55462,55462,0.0,1,1,lattice_opp lattice_opp_fullonly opp_benders opp_stack1d verify_lattice_indep verify_opp_stack1d_highs,lattice lattice_indep opp opp_indep,cg_v2_root,results/solutions/sprint/MB_C8_1_area_cg_v2_root.json,0,results/final/solutions/MB_C8_1_area.json,55462,48438,0
+MB_C8_2,8,20,area,56286,56286,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_2_area_cg_v2_root.json,0,results/final/solutions/MB_C8_2_area.json,56286,46554,0
+MB_C8_3,8,20,area,48712,48712,0.0,1,1,cg_v2_root probe_cpsat_direct sweep_rep verify_cg_safe,cg direct rep,cg_v2_root,results/solutions/sprint/MB_C8_3_area_cg_v2_root.json,0,results/final/solutions/MB_C8_3_area.json,48712,44126,0
+MB_C8_4,8,20,area,62271,62271,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_4_area_cg_v2_root.json,0,results/final/solutions/MB_C8_4_area.json,62271,50000,0
+MB_C8_5,8,20,area,49781,49781,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_5_area_cg_v2_root.json,0,results/final/solutions/MB_C8_5_area.json,49781,41780,0
+MB_C8_6,8,20,area,56058,56058,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_6_area_cg_v2_root.json,0,results/final/solutions/MB_C8_6_area.json,56058,47500,0
+MB_C8_7,8,20,area,41970,41970,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_7_area_cg_v2_root.json,0,results/final/solutions/MB_C8_7_area.json,41970,34517,0
+MB_C8_8,8,20,area,49471,49471,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_8_area_cg_v2_root.json,0,results/final/solutions/MB_C8_8_area.json,49471,44164,0
+MB_C8_9,8,20,area,61036,61036,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_9_area_cg_v2_root.json,0,results/final/solutions/MB_C8_9_area.json,61036,49415,0
+MB_C8_10,8,20,area,36888,36888,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C8_10_area_cg_v2_root.json,0,results/final/solutions/MB_C8_10_area.json,36888,31440,0
+MB_C8_11,8,40,area,106655,108871,2.035,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C8_11_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_11_area.json,106655,95270,0
+MB_C8_12,8,40,area,119441,119441,0.0,1,1,lattice_opp lattice_opp_fullonly verify_lattice_indep,lattice lattice_indep,lattice_opp,results/solutions/sprint/MB_C8_12_area_lattice_opp.json,0,results/final/solutions/MB_C8_12_area.json,119441,106460,0
+MB_C8_13,8,40,area,96214,98262,2.084,0,0,cg_v2_bendex lattice_opp verify_cg_safe,cg lattice,primal_heur,results/solutions/sprint/MB_C8_13_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_13_area.json,96734,89264,0
+MB_C8_14,8,40,area,119612,119612,0.0,1,1,confirm_lattice verify_cg_safe,cg lattice,opp_benders,results/solutions/sprint/MB_C8_14_area_opp_benders.json,0,results/final/solutions/MB_C8_14_area.json,119628,99740,0
+MB_C8_15,8,40,area,79734,80885,1.423,0,0,verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C8_15_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_15_area.json,79965,72611,0
+MB_C8_16,8,40,area,108267,111995,3.329,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C8_16_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_16_area.json,109677,94808,0
+MB_C8_17,8,40,area,102189,102705,0.502,0,0,cg_v2_bendex verify_cg_safe,cg,verify_primal_recost,results/solutions/sprint/MB_C8_17_area_verify_primal_recost.json,0,results/final/solutions/MB_C8_17_area.json,102189,88642,0
+MB_C8_18,8,40,area,101680,102912,1.197,0,0,cg_v2_bendex verify_cg_safe,cg,sweep_cross,results/solutions/sprint/MB_C8_18_area_sweep_cross.json,0,results/final/solutions/MB_C8_18_area.json,102912,91836,0
+MB_C8_19,8,40,area,81722,84888,3.73,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C8_19_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_19_area.json,83252,77086,0
+MB_C8_20,8,40,area,117043,117995,0.807,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C8_20_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_20_area.json,117043,105378,0
+MB_C8_21,8,60,area,,164584,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_21_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_21_area.json,161760,145815,0
+MB_C8_22,8,60,area,,157760,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_22_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_22_area.json,153192,143574,0
+MB_C8_23,8,60,area,,158938,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_23_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_23_area.json,156524,140459,0
+MB_C8_24,8,60,area,,140739,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_24_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_24_area.json,138956,124539,0
+MB_C8_25,8,60,area,,134266,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_25_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_25_area.json,130099,121888,0
+MB_C8_26,8,60,area,,142201,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_26_area_primal_lns_l1x.json,0,results/final/solutions/MB_C8_26_area.json,138427,129243,0
+MB_C8_27,8,60,area,,133375,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_27_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_27_area.json,131250,121488,0
+MB_C8_28,8,60,area,,165820,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_28_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_28_area.json,160800,147000,0
+MB_C8_29,8,60,area,,150928,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_29_area_primal_lns_l2.json,0,results/final/solutions/MB_C8_29_area.json,149438,136674,0
+MB_C8_30,8,60,area,,173504,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_30_area_primal_heur_h2.json,0,results/final/solutions/MB_C8_30_area.json,173392,149864,0
+MB_C8_31,8,80,area,,209196,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_31_area_primal_lns_l2.json,0,results/final/solutions/MB_C8_31_area.json,209196,183536,0
+MB_C8_32,8,80,area,,220318,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_32_area_primal_lns_l2.json,0,results/final/solutions/MB_C8_32_area.json,219798,193798,0
+MB_C8_33,8,80,area,,191364,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_33_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_33_area.json,187680,173152,0
+MB_C8_34,8,80,area,,189072,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_34_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_34_area.json,184728,171794,0
+MB_C8_35,8,80,area,,250770,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_35_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_35_area.json,246740,219009,0
+MB_C8_36,8,80,area,,205689,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_36_area.json,201326,187152,0
+MB_C8_37,8,80,area,,207209,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_37_area_primal_heur_h1x.json,0,results/final/solutions/MB_C8_37_area.json,203088,189499,0
+MB_C8_38,8,80,area,,211282,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_38_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_38_area.json,203824,194220,0
+MB_C8_39,8,80,area,,206057,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_39_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_39_area.json,205190,188363,0
+MB_C8_40,8,80,area,,236708,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_40_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_40_area.json,232896,208288,0
+MB_C8_41,8,100,area,,254820,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_41_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_41_area.json,254820,227075,0
+MB_C8_42,8,100,area,,249028,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_42_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_42_area.json,245042,228449,0
+MB_C8_43,8,100,area,,230460,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_43_area_primal_lns_l1.json,0,results/final/solutions/MB_C8_43_area.json,221944,206336,0
+MB_C8_44,8,100,area,,286862,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_44_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_44_area.json,284324,254531,0
+MB_C8_45,8,100,area,,265335,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_45_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_45_area.json,259609,240785,0
+MB_C8_46,8,100,area,,252295,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_46_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_46_area.json,245807,225982,0
+MB_C8_47,8,100,area,,247640,,0,0,,,primal_lns,results/solutions/sprint/MB_C8_47_area_primal_lns_l1.json,0,results/final/solutions/MB_C8_47_area.json,240566,225820,0
+MB_C8_48,8,100,area,,266068,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_48_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_48_area.json,260200,245144,0
+MB_C8_49,8,100,area,,257627,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_49_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_49_area.json,251603,234344,0
+MB_C8_50,8,100,area,,302333,,0,0,,,primal_heur,results/solutions/sprint/MB_C8_50_area_primal_heur_h1.json,0,results/final/solutions/MB_C8_50_area.json,292430,273613,0
+MB_C9_1,9,20,area,143764,143764,0.0,1,1,cg_v2_root probe_cpsat_direct sweep_rep verify_cg_safe,cg direct rep,cg_v2_root,results/solutions/sprint/MB_C9_1_area_cg_v2_root.json,0,results/final/solutions/MB_C9_1_area.json,143764,111292,0
+MB_C9_2,9,20,area,114280,114280,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C9_2_area_cg_v2_root.json,0,results/final/solutions/MB_C9_2_area.json,114280,90000,0
+MB_C9_3,9,20,area,120198,120198,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C9_3_area_cg_v2_root.json,0,results/final/solutions/MB_C9_3_area.json,120198,91880,0
+MB_C9_4,9,20,area,109967,109967,0.0,1,1,cg_v2_root probe_cpsat_direct sweep_rep verify_cg_safe,cg direct rep,cg_v2_root,results/solutions/sprint/MB_C9_4_area_cg_v2_root.json,0,results/final/solutions/MB_C9_4_area.json,109967,87504,0
+MB_C9_5,9,20,area,133314,133314,0.0,1,1,cg_v2_root probe_cpsat_direct sweep_rep verify_cg_safe,cg direct rep,cg_v2_root,results/solutions/sprint/MB_C9_5_area_cg_v2_root.json,0,results/final/solutions/MB_C9_5_area.json,133314,98660,0
+MB_C9_6,9,20,area,126154,126154,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C9_6_area_cg_v2_root.json,0,results/final/solutions/MB_C9_6_area.json,126154,98775,0
+MB_C9_7,9,20,area,80404,80404,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C9_7_area_cg_v2_root.json,0,results/final/solutions/MB_C9_7_area.json,80404,65251,0
+MB_C9_8,9,20,area,110351,110351,0.0,1,1,cg_v2_root sweep_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_8_area_cg_v2_root.json,0,results/final/solutions/MB_C9_8_area.json,110351,84125,0
+MB_C9_9,9,20,area,143828,143828,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C9_9_area_cg_v2_root.json,0,results/final/solutions/MB_C9_9_area.json,143828,140000,0
+MB_C9_10,9,20,area,101646,101646,0.0,1,1,cg_v2_root probe_cpsat_direct sweep_rep verify_cg_safe,cg direct rep,cg_v2_root,results/solutions/sprint/MB_C9_10_area_cg_v2_root.json,0,results/final/solutions/MB_C9_10_area.json,101646,77362,0
+MB_C9_11,9,40,area,228013,228013,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_11_area_cg_v2_root.json,0,results/final/solutions/MB_C9_11_area.json,228013,162096,0
+MB_C9_12,9,40,area,245606,245606,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_12_area_cg_v2_root.json,0,results/final/solutions/MB_C9_12_area.json,245606,185248,0
+MB_C9_13,9,40,area,232584,232584,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_13_area_cg_v2_root.json,0,results/final/solutions/MB_C9_13_area.json,232584,185140,0
+MB_C9_14,9,40,area,243592,243592,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_14_area_cg_v2_root.json,0,results/final/solutions/MB_C9_14_area.json,243592,187033,0
+MB_C9_15,9,40,area,229658,229658,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_15_area_cg_v2_root.json,0,results/final/solutions/MB_C9_15_area.json,229658,190000,0
+MB_C9_16,9,40,area,242438,242438,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_16_area_cg_v2_root.json,0,results/final/solutions/MB_C9_16_area.json,242438,183724,0
+MB_C9_17,9,40,area,199906,199906,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_17_area_cg_v2_root.json,0,results/final/solutions/MB_C9_17_area.json,199906,157680,0
+MB_C9_18,9,40,area,235274,235274,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_18_area_cg_v2_root.json,0,results/final/solutions/MB_C9_18_area.json,235274,180000,0
+MB_C9_19,9,40,area,187028,187028,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_19_area_cg_v2_root.json,0,results/final/solutions/MB_C9_19_area.json,187028,149038,0
+MB_C9_20,9,40,area,305530,305530,0.0,1,1,cg_v2_bendex confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_20_area_cg_v2_root.json,0,results/final/solutions/MB_C9_20_area.json,305530,240000,0
+MB_C9_21,9,60,area,421320,421320,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_21_area_cg_v2_root.json,0,results/final/solutions/MB_C9_21_area.json,421320,350000,0
+MB_C9_22,9,60,area,379304,379304,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_22_area_cg_v2_root.json,0,results/final/solutions/MB_C9_22_area.json,379304,292840,0
+MB_C9_23,9,60,area,381891,381891,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_23_area_cg_v2_root.json,0,results/final/solutions/MB_C9_23_area.json,381891,296526,0
+MB_C9_24,9,60,area,350621,350621,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_24_area_cg_v2_root.json,0,results/final/solutions/MB_C9_24_area.json,350621,262204,0
+MB_C9_25,9,60,area,350410,350410,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_25_area_cg_v2_root.json,0,results/final/solutions/MB_C9_25_area.json,350410,280000,0
+MB_C9_26,9,60,area,312872,312872,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_26_area_cg_v2_root.json,0,results/final/solutions/MB_C9_26_area.json,312872,241594,0
+MB_C9_27,9,60,area,337596,337596,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_27_area_cg_v2_root.json,0,results/final/solutions/MB_C9_27_area.json,337596,247428,0
+MB_C9_28,9,60,area,388055,388055,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_28_area_cg_v2_root.json,0,results/final/solutions/MB_C9_28_area.json,388055,279414,0
+MB_C9_29,9,60,area,357044,357044,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_29_area_cg_v2_root.json,0,results/final/solutions/MB_C9_29_area.json,357044,269621,0
+MB_C9_30,9,60,area,389890,389890,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_30_area_cg_v2_root.json,0,results/final/solutions/MB_C9_30_area.json,389890,288901,0
+MB_C9_31,9,80,area,510290,510290,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_31_area_cg_v2_root.json,0,results/final/solutions/MB_C9_31_area.json,510290,400000,0
+MB_C9_32,9,80,area,480999,480999,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_32_area_cg_v2_root.json,0,results/final/solutions/MB_C9_32_area.json,480999,360267,0
+MB_C9_33,9,80,area,461038,461038,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_33_area_cg_v2_root.json,0,results/final/solutions/MB_C9_33_area.json,461038,350975,0
+MB_C9_34,9,80,area,473754,473754,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_34_area_cg_v2_root.json,0,results/final/solutions/MB_C9_34_area.json,473754,360000,0
+MB_C9_35,9,80,area,521570,521570,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_35_area_cg_v2_root.json,0,results/final/solutions/MB_C9_35_area.json,521570,386538,0
+MB_C9_36,9,80,area,524158,524158,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_36_area_cg_v2_root.json,0,results/final/solutions/MB_C9_36_area.json,524158,372858,0
+MB_C9_37,9,80,area,479428,479428,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_37_area_cg_v2_root.json,0,results/final/solutions/MB_C9_37_area.json,479428,384949,0
+MB_C9_38,9,80,area,483163,483264,0.021,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C9_38_area_cg_v2_root.json,0,results/final/solutions/MB_C9_38_area.json,483264,368805,0
+MB_C9_39,9,80,area,403508,404576,0.264,0,0,cg_v2_root verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C9_39_area_primal_lns_l2.json,0,results/final/solutions/MB_C9_39_area.json,404206,331660,0
+MB_C9_40,9,80,area,486917,487286,0.076,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C9_40_area_cg_v2_root.json,0,results/final/solutions/MB_C9_40_area.json,487286,389562,0
+MB_C9_41,9,100,area,637304,637304,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_41_area_cg_v2_root.json,0,results/final/solutions/MB_C9_41_area.json,637304,520000,0
+MB_C9_42,9,100,area,535810,535810,0.0,1,1,cg_v2_root confirm_rep verify_cg_safe,cg rep,cg_v2_root,results/solutions/sprint/MB_C9_42_area_cg_v2_root.json,0,results/final/solutions/MB_C9_42_area.json,535810,430560,0
+MB_C9_43,9,100,area,539599,539599,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_43_area_cg_v2_root.json,0,results/final/solutions/MB_C9_43_area.json,539599,418497,0
+MB_C9_44,9,100,area,626091,626091,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_44_area_cg_v2_root.json,0,results/final/solutions/MB_C9_44_area.json,626091,475108,0
+MB_C9_45,9,100,area,565632,565632,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_45_area_cg_v2_root.json,0,results/final/solutions/MB_C9_45_area.json,565632,480000,0
+MB_C9_46,9,100,area,583672,584024,0.06,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C9_46_area_cg_v2_root.json,0,results/final/solutions/MB_C9_46_area.json,584024,459460,0
+MB_C9_47,9,100,area,539114,539114,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_47_area_cg_v2_root.json,0,results/final/solutions/MB_C9_47_area.json,539114,415670,0
+MB_C9_48,9,100,area,593867,594015,0.025,0,0,cg_v2_root verify_cg_safe,cg,cg_v2_root,results/solutions/sprint/MB_C9_48_area_cg_v2_root.json,0,results/final/solutions/MB_C9_48_area.json,594015,466320,0
+MB_C9_49,9,100,area,537236,537372,0.025,0,0,cg_v2_root verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C9_49_area_primal_lns_l2.json,0,results/final/solutions/MB_C9_49_area.json,537372,434692,0
+MB_C9_50,9,100,area,597500,597500,0.0,1,1,cg_v2_root verify_cg_oldcg verify_cg_safe,cg cg_old,cg_v2_root,results/solutions/sprint/MB_C9_50_area_cg_v2_root.json,0,results/final/solutions/MB_C9_50_area.json,597500,486071,0
+MB_C10_1,10,20,area,60000,60000,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_1_area_cg_v2_root.json,0,results/final/solutions/MB_C10_1_area.json,60000,60000,1
+MB_C10_2,10,20,area,29240,29240,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_2_area_cg_v2_root.json,0,results/final/solutions/MB_C10_2_area.json,29240,24620,0
+MB_C10_3,10,20,area,40000,40000,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_3_area_cg_v2_root.json,0,results/final/solutions/MB_C10_3_area.json,40000,36241,0
+MB_C10_4,10,20,area,38786,38786,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_4_area_cg_v2_root.json,0,results/final/solutions/MB_C10_4_area.json,38786,34073,0
+MB_C10_5,10,20,area,37488,37488,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_5_area_cg_v2_root.json,0,results/final/solutions/MB_C10_5_area.json,37488,32528,0
+MB_C10_6,10,20,area,33657,33657,0.0,1,1,cg_v2_root opp_benders probe_cpsat_direct sweep_rep verify_cg_safe,cg direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_6_area_cg_v2_root.json,0,results/final/solutions/MB_C10_6_area.json,33657,30971,0
+MB_C10_7,10,20,area,43446,43446,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_7_area_cg_v2_root.json,0,results/final/solutions/MB_C10_7_area.json,43446,40000,0
+MB_C10_8,10,20,area,27290,27290,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_8_area_cg_v2_root.json,0,results/final/solutions/MB_C10_8_area.json,27290,19595,0
+MB_C10_9,10,20,area,50000,50000,0.0,1,1,opp_benders probe_cpsat_direct sweep_rep,direct opp rep,cg_v2_root,results/solutions/sprint/MB_C10_9_area_cg_v2_root.json,0,results/final/solutions/MB_C10_9_area.json,50000,44028,0
+MB_C10_10,10,20,area,21288,21288,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,sweep_rep,results/solutions/sprint/MB_C10_10_area_sweep_rep.json,0,results/final/solutions/MB_C10_10_area.json,21288,20000,0
+MB_C10_11,10,40,area,76075,76075,0.0,1,1,probe_cpsat_direct sweep_rep verify_sweep_direct_lbm1,direct rep,sweep_cross,results/solutions/sprint/MB_C10_11_area_sweep_cross.json,0,results/final/solutions/MB_C10_11_area.json,76075,70312,0
+MB_C10_12,10,40,area,73114,73114,0.0,1,1,probe_cpsat_direct sweep_rep verify_primal_cpsat_direct verify_sweep_direct_lbm1,direct rep,sweep_rep,results/solutions/sprint/MB_C10_12_area_sweep_rep.json,0,results/final/solutions/MB_C10_12_area.json,73960,66060,0
+MB_C10_13,10,40,area,87088,87088,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,sweep_rep,results/solutions/sprint/MB_C10_13_area_sweep_rep.json,0,results/final/solutions/MB_C10_13_area.json,87088,79648,0
+MB_C10_14,10,40,area,57753,57753,0.0,1,1,confirm_rep cpsat_direct probe_cpsat_direct,direct rep,cpsat_direct,results/solutions/sprint/MB_C10_14_area_cpsat_direct_probe_rerun_c57753.json,0,results/final/solutions/MB_C10_14_area.json,57936,54870,0
+MB_C10_15,10,40,area,50766,52957,4.137,0,0,cg_v2_bendex lattice_opp verify_cg_safe,cg lattice,sweep_direct,results/solutions/sprint/MB_C10_15_area_sweep_direct.json,0,results/final/solutions/MB_C10_15_area.json,53382,50610,0
+MB_C10_16,10,40,area,52900,52900,0.0,1,1,confirm_rep cpsat_direct probe_cpsat_direct,direct rep,cpsat_direct,results/solutions/sprint/MB_C10_16_area_cpsat_direct_probe_rerun_c52900.json,0,results/final/solutions/MB_C10_16_area.json,53632,49648,0
+MB_C10_17,10,40,area,66602,66602,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,sweep_rep,results/solutions/sprint/MB_C10_17_area_sweep_rep.json,0,results/final/solutions/MB_C10_17_area.json,66789,60834,0
+MB_C10_18,10,40,area,65005,65005,0.0,1,1,cg_v2_bendex cpsat_direct verify_cg_safe,cg direct,cpsat_direct,results/solutions/sprint/MB_C10_18_area_cpsat_direct_probe_rerun_c65005.json,0,results/final/solutions/MB_C10_18_area.json,65074,61040,0
+MB_C10_19,10,40,area,67737,71038,4.647,0,0,cg_v2_bendex verify_cg_safe,cg,sweep_direct,results/solutions/sprint/MB_C10_19_area_sweep_direct.json,0,results/final/solutions/MB_C10_19_area.json,71412,67649,0
+MB_C10_20,10,40,area,79724,79724,0.0,1,1,probe_cpsat_direct sweep_rep,direct rep,sweep_rep,results/solutions/sprint/MB_C10_20_area_sweep_rep.json,0,results/final/solutions/MB_C10_20_area.json,80088,71652,0
+MB_C10_21,10,60,area,104240,112570,7.4,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_21_area_sweep_rep.json,0,results/final/solutions/MB_C10_21_area.json,109570,103204,0
+MB_C10_22,10,60,area,111514,117534,5.122,0,0,verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C10_22_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_22_area.json,116070,108964,0
+MB_C10_23,10,60,area,102594,111468,7.961,0,0,cg_v2_bendex verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_23_area_sweep_rep.json,0,results/final/solutions/MB_C10_23_area.json,110000,102594,0
+MB_C10_24,10,60,area,69620,72186,3.555,0,0,lattice_opp,cg lattice,sweep_rep,results/solutions/sprint/MB_C10_24_area_sweep_rep.json,0,results/final/solutions/MB_C10_24_area.json,72186,69477,0
+MB_C10_25,10,60,area,72392,75294,3.854,0,0,lattice_opp,cg lattice,primal_lns,results/solutions/sprint/MB_C10_25_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_25_area.json,75460,72110,0
+MB_C10_26,10,60,area,113969,117884,3.321,0,0,verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_26_area_sweep_rep.json,0,results/final/solutions/MB_C10_26_area.json,116998,111382,0
+MB_C10_27,10,60,area,89828,95901,6.333,0,0,cg_v2_bendex verify_cg_safe,cg,primal_heur,results/solutions/sprint/MB_C10_27_area_primal_heur_h2.json,0,results/final/solutions/MB_C10_27_area.json,94110,89756,0
+MB_C10_28,10,60,area,90748,97277,6.712,0,0,verify_cg_safe,cg,primal_lns,results/solutions/sprint/MB_C10_28_area_primal_lns_l2.json,0,results/final/solutions/MB_C10_28_area.json,96193,89585,0
+MB_C10_29,10,60,area,79172,84025,5.776,0,0,cg_v2_bendex verify_cg_safe,cg,sweep_rep,results/solutions/sprint/MB_C10_29_area_sweep_rep.json,0,results/final/solutions/MB_C10_29_area.json,85000,79111,0
+MB_C10_30,10,60,area,73074,77544,5.764,0,0,cg_v2_bendex sweep_rep verify_cg_safe,cg rep,sweep_rep,results/solutions/sprint/MB_C10_30_area_sweep_rep.json,0,results/final/solutions/MB_C10_30_area.json,76742,73074,0
+MB_C10_31,10,80,area,,126550,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_31_area_primal_heur_h1.json,0,results/final/solutions/MB_C10_31_area.json,123579,117398,0
+MB_C10_32,10,80,area,,102226,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_32_area_primal_lns_l2.json,0,results/final/solutions/MB_C10_32_area.json,101251,97809,0
+MB_C10_33,10,80,area,,106128,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_33_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_33_area.json,103864,101072,0
+MB_C10_34,10,80,area,,137398,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_34_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_34_area.json,135254,129404,0
+MB_C10_35,10,80,area,,135085,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_35_area_primal_lns_l2.json,0,results/final/solutions/MB_C10_35_area.json,133584,127223,0
+MB_C10_36,10,80,area,,134060,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_36_area_primal_heur_h1.json,0,results/final/solutions/MB_C10_36_area.json,127788,122108,0
+MB_C10_37,10,80,area,,143146,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_37_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_37_area.json,140000,133541,0
+MB_C10_38,10,80,area,,99138,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_38_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_38_area.json,96041,93752,0
+MB_C10_39,10,80,area,,126131,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_39_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_39_area.json,120415,115795,0
+MB_C10_40,10,80,area,,144643,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_40_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_40_area.json,144198,133665,0
+MB_C10_41,10,100,area,,142392,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_41_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_41_area.json,139696,135996,0
+MB_C10_42,10,100,area,,154166,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_42_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_42_area.json,151866,146014,0
+MB_C10_43,10,100,area,,159581,,0,0,,,primal_heur,results/solutions/sprint/MB_C10_43_area_primal_heur_h1.json,0,results/final/solutions/MB_C10_43_area.json,154012,149370,0
+MB_C10_44,10,100,area,,174564,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_44_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_44_area.json,168928,161944,0
+MB_C10_45,10,100,area,,177590,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_45_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_45_area.json,172680,164870,0
+MB_C10_46,10,100,area,,129672,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_46_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_46_area.json,125686,121590,0
+MB_C10_47,10,100,area,,133715,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_47_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_47_area.json,131542,128538,0
+MB_C10_48,10,100,area,,181651,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_48_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_48_area.json,178099,170510,0
+MB_C10_49,10,100,area,,160810,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_49_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_49_area.json,156365,150660,0
+MB_C10_50,10,100,area,,151966,,0,0,,,primal_lns,results/solutions/sprint/MB_C10_50_area_primal_lns_l1.json,0,results/final/solutions/MB_C10_50_area.json,145778,141016,0

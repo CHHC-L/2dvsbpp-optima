@@ -1,0 +1,6 @@
+# tested with Python 3.12 on macOS (Apple M4)
+ortools==9.15.6755
+numpy>=2.0
+highspy>=1.15        # opp_stack1d.py and a few verifiers (HiGHS MIP cross-checks)
+packingsolver==0.1.1183   # optional: primal_run.py, packingsolver_ub.py
+# optional, for DRAT certificates in opp_sat.py: the cadical and drat-trim binaries on PATH

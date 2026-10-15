@@ -4,6 +4,8 @@ Proven optima and checked packings for the 500 instances of Pisinger & Sigurd (2
 variable-sized bin packing (*Discrete Optimization* 2(2):154–167). Items are oriented (no rotation) and
 packings are not restricted to guillotine cuts.
 
+Write-up: [Proving 237/500 Optima on the Pisinger–Sigurd (MB) Benchmark](https://chhc-l.github.io/posts/2dvsbpp-optima/)
+
 ## Problem
 
 Pack n rectangles (n = 20, 40, 60, 80, 100) into bins chosen from at most 5 bin types. Each type has a
